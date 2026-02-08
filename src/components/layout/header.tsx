@@ -20,12 +20,12 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: 'About', href: '#about' },
-    { name: 'Events', href: '#events' },
-    { name: 'Schedule', href: '#schedule' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Team', href: '#team' },
-    { name: 'Sponsors', href: '#sponsors' },
+    { name: 'About', href: '/about' },
+    { name: 'Events', href: '/events' },
+    { name: 'Schedule', href: '/schedule' },
+    { name: 'Gallery', href: '/gallery' },
+    { name: 'Team', href: '/team' },
+    { name: 'Sponsors', href: '/sponsors' },
   ];
   
   const NavItems = () => (
@@ -51,7 +51,9 @@ const Header = () => {
 
           <nav className="hidden md:flex items-center space-x-2">
             <NavItems />
-            <Button>Register Now</Button>
+            <Button asChild>
+              <Link href="/register">Register Now</Link>
+            </Button>
           </nav>
 
           <div className="md:hidden">
@@ -77,7 +79,9 @@ const Header = () => {
                   </div>
                   <nav className="flex flex-col items-center justify-center flex-1 gap-6">
                     <NavItems />
-                    <Button size="lg" className="w-4/5">Register Now</Button>
+                    <Button asChild size="lg" className="w-4/5">
+                      <Link href="/register">Register Now</Link>
+                    </Button>
                   </nav>
                 </div>
               </SheetContent>

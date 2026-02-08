@@ -3,10 +3,6 @@ import Footer from '@/components/layout/footer';
 import HeroSection from '@/components/sections/hero';
 import AboutSection from '@/components/sections/about';
 import EventsSection from '@/components/sections/events';
-import ScheduleSection from '@/components/sections/schedule';
-import GallerySection from '@/components/sections/gallery';
-import TeamSection from '@/components/sections/team';
-import SponsorsSection from '@/components/sections/sponsors';
 import { AnimatedSection } from '@/components/animated-section';
 
 export default function Home() {
@@ -23,22 +19,6 @@ export default function Home() {
 
           <AnimatedSection id="events">
             <EventsSection />
-          </AnimatedSection>
-          
-          <AnimatedSection id="schedule">
-            <ScheduleSection />
-          </AnimatedSection>
-          
-          <AnimatedSection id="gallery">
-            <GallerySection />
-          </AnimatedSection>
-          
-          <AnimatedSection id="team">
-            <TeamSection />
-          </AnimatedSection>
-          
-          <AnimatedSection id="sponsors">
-            <SponsorsSection />
           </AnimatedSection>
         </div>
       </main>
