@@ -62,10 +62,10 @@ const Countdown = () => {
     const value = timeLeft[interval];
     return (
       <div key={interval} className="flex flex-col items-center text-center w-24 h-28 md:w-32 md:h-36 justify-center bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm shadow-lg">
-        <div ref={refs[interval]} className="text-5xl md:text-7xl font-bold font-headline text-primary-foreground tabular-nums">
+        <div ref={refs[interval]} className="text-5xl md:text-7xl font-bold font-headline text-white tabular-nums">
             {String(value).padStart(2, '0')}
         </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider font-medium text-primary-foreground/70 mt-1">
+        <div className="text-xs md:text-sm uppercase tracking-wider font-medium text-white/70 mt-1">
           {interval}
         </div>
       </div>
