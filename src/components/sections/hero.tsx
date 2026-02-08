@@ -46,7 +46,7 @@ const HeroSection = () => {
           The Labyrinth of Legends
         </p>
 
-        <div className="countdown-container bg-black/30 backdrop-blur-sm p-6 md:p-10 rounded-2xl border border-white/20 shadow-2xl">
+        <div className="countdown-container">
           <Countdown />
         </div>
         
