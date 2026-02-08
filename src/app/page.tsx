@@ -3,6 +3,9 @@ import Footer from '@/components/layout/footer';
 import HeroSection from '@/components/sections/hero';
 import AboutSection from '@/components/sections/about';
 import EventsSection from '@/components/sections/events';
+import GallerySection from '@/components/sections/gallery';
+import SponsorsSection from '@/components/sections/sponsors';
+import CtaSection from '@/components/sections/cta';
 import { AnimatedSection } from '@/components/animated-section';
 
 export default function Home() {
@@ -19,6 +22,20 @@ export default function Home() {
 
           <AnimatedSection id="events">
             <EventsSection />
+          </AnimatedSection>
+
+          <AnimatedSection id="highlights">
+            <GallerySection />
+          </AnimatedSection>
+
+          <AnimatedSection id="sponsors">
+            <SponsorsSection />
+          </AnimatedSection>
+        </div>
+
+        <div className="bg-primary/10">
+          <AnimatedSection id="cta" className="py-20 text-center">
+            <CtaSection />
           </AnimatedSection>
         </div>
       </main>
