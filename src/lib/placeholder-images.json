@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract purple and blue energy waves, representing the dynamic and mysterious nature of Chakravyuh fest.",
+      "imageUrl": "https://images.unsplash.com/photo-1721544799656-f3a774561062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGZyYWN0YWx8ZW58MHx8fHwxNzcwNTIxNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract fractal"
+    },
+    {
+      "id": "about-fest",
+      "description": "A wide shot of a vibrant college campus bustling with students during a fest.",
+      "imageUrl": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHx8fDE3NzA0OTYxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "college campus"
+    },
+    {
+      "id": "chairperson",
+      "description": "A confident and friendly-looking student, the chairperson of the fest.",
+      "imageUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwNDg2Njk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student portrait"
+    },
+    {
+      "id": "vice-chair-1",
+      "description": "A smiling student, a vice-chair of the organizing committee.",
+      "imageUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwNDg2Njk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student portrait"
+    },
+    {
+      "id": "vice-chair-2",
+      "description": "An enthusiastic student, another vice-chair of the organizing committee.",
+      "imageUrl": "https://images.unsplash.com/photo-1554727242-741c14fa561c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc3MDQ1ODY3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "event-head-1",
+      "description": "A focused student, an event head for a technical competition.",
+      "imageUrl": "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwd29ya2luZ3xlbnwwfHx8fDE3NzA1MjE0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student working"
+    },
+    {
+      "id": "event-head-2",
+      "description": "A creative-looking student, an event head for a cultural event.",
+      "imageUrl": "https://images.unsplash.com/photo-1614204424926-196a80bf0be8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcnRpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA1MTgzNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artist portrait"
+    },
+    {
+      "id": "event-head-3",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "https://images.unsplash.com/photo-1695918425283-eb385c012b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwNDk4NTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A high-energy shot of a crowd at a music concert during a previous fest.",
+      "imageUrl": "https://images.unsplash.com/photo-1689783101582-98feb9393a57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb25jZXJ0JTIwY3Jvd2R8ZW58MHx8fHwxNzcwNDQyMjQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "concert crowd"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Students participating in a fun non-technical event.",
+      "imageUrl": "https://images.unsplash.com/photo-1719977913767-8ecf49736c9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3R1ZGVudHMlMjBwbGF5aW5nfGVufDB8fHx8MTc3MDUyMTQ0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students playing"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A close-up of a robot built for a technical competition.",
+      "imageUrl": "https://images.unsplash.com/photo-1767966787868-2db51cb84de5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyb2JvdCUyMGNvbXBldGl0aW9ufGVufDB8fHx8MTc3MDUyMTQ0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot competition"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A winning team celebrating on stage.",
+      "imageUrl": "https://images.unsplash.com/photo-1628336707631-68131ca720c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY2VsZWJyYXRpb258ZW58MHx8fHwxNzcwNTIxNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team celebration"
+    },
+    {
+      "id": "gallery-5",
+      "description": "An artistic performance on stage.",
+      "imageUrl": "https://images.unsplash.com/photo-1524201862652-0d3d485d6d07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdGFnZSUyMHBlcmZvcm1hbmNlfGVufDB8fHx8MTc3MDQ3MzExM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stage performance"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Students engaged in a workshop.",
+      "imageUrl": "https://images.unsplash.com/photo-1752920299180-e8fd9276c202?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50cyUyMGxlYXJuaW5nfGVufDB8fHx8MTc3MDQxODU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students learning"
+    },
+    {
+      "id": "sponsor-title",
+      "description": "Logo for a major tech company, the title sponsor.",
+      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NzA1MDgwMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "sponsor-co1",
+      "description": "Logo for a popular beverage brand, a co-sponsor.",
+      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxicmFuZCUyMGxvZ298ZW58MHx8fHwxNzcwNDgyOTUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "sponsor-co2",
+      "description": "Logo for a national bank, a co-sponsor.",
+      "imageUrl": "https://images.unsplash.com/photo-1705858741783-ba1defdc5302?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiYW5rJTIwbG9nb3xlbnwwfHx8fDE3NzA0NjE3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bank logo"
+    },
+    {
+      "id": "sponsor-partner1",
+      "description": "Logo for a local food chain, a food partner.",
+      "imageUrl": "https://images.unsplash.com/photo-1640812570037-ea415861315b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmb29kJTIwbG9nb3xlbnwwfHx8fDE3NzA1MDI3OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food logo"
+    },
+    {
+      "id": "sponsor-partner2",
+      "description": "Logo for a radio station, a media partner.",
+      "imageUrl": "https://images.unsplash.com/photo-1688678991304-ec82060848ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtZWRpYSUyMGxvZ298ZW58MHx8fHwxNzcwNDEwOTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "media logo"
+    }
+  ]
 }
