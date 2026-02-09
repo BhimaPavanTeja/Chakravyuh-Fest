@@ -124,7 +124,7 @@ export const eventsData: Event[] = [
     volunteers: '10',
     contactName: 'C V Thanush',
     contactDetails: '7989710860',
-    category: 'non-technical',
+    category: 'technical',
   },
   // RAIC CLUB
   {

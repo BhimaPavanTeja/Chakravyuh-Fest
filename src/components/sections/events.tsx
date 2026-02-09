@@ -18,7 +18,7 @@ const EventCard = ({ event, onLearnMore }: { event: Event, onLearnMore: () => vo
     </CardHeader>
     <div className="flex-grow" />
     <CardFooter className="flex-col items-start gap-2 pt-4">
-      <Badge variant="secondary">{event.club}</Badge>
+      <Badge variant="secondary" className='bg-violet-600 text-white'>{event.club}</Badge>
       <Button variant="outline" className="w-full mt-2" onClick={onLearnMore}>
         Learn More <ArrowRight className="ml-2 h-4 w-4" />
       </Button>

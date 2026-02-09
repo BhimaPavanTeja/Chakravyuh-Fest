@@ -2,8 +2,15 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from '@/components/ui/sheet';
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetTitle,
+  SheetDescription,
+} from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -45,8 +52,9 @@ const Header = () => {
     )}>
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="text-xl font-bold font-headline text-primary">
-            Chakravyuh '26
+          <Link href="/" className="flex items-center gap-2 text-xl font-bold font-headline text-primary">
+            <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={32} height={32} className="h-8 w-8" />
+            <span>Chakravyuh '26</span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-2">
@@ -71,8 +79,9 @@ const Header = () => {
                 </SheetDescription>
                 <div className="flex flex-col h-full">
                   <div className="flex justify-start items-center p-4 border-b">
-                     <Link href="/" className="text-xl font-bold font-headline text-primary" onClick={() => setIsMobileMenuOpen(false)}>
-                        Chakravyuh '26
+                     <Link href="/" className="flex items-center gap-2 text-xl font-bold font-headline text-primary" onClick={() => setIsMobileMenuOpen(false)}>
+                        <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={32} height={32} className="h-8 w-8" />
+                        <span>Chakravyuh '26</span>
                       </Link>
                   </div>
                   <nav className="flex flex-col items-center justify-center flex-1 gap-6">
