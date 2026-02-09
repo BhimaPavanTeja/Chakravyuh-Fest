@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent } from '@/components/ui/card';
@@ -41,7 +42,7 @@ const TeamMemberCard = ({ member }: { member: { id: string, name: string, role: 
   const fallback = member.name.split(' ').map(n => n[0]).join('');
 
   return (
-    <Card className="text-center group shadow-lg hover:shadow-primary/20 transition-shadow duration-300 h-full">
+    <Card className="text-center group shadow-lg hover:shadow-primary/20 transition-all duration-300 h-full hover:-translate-y-2">
       <CardContent className="flex flex-col items-center justify-center p-6 h-full">
         <Avatar className="w-32 h-32 mb-4 border-4 border-transparent group-hover:border-accent transition-all duration-300">
           {image && (
@@ -104,9 +105,11 @@ const TeamSection = () => {
                 {sortedRoles.map(role => (
                     <div key={role}>
                         <h3 className="text-2xl font-bold font-headline text-accent mb-8">{role}</h3>
-                        <div className="inline-grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                        <div className="flex flex-wrap items-stretch justify-center gap-8">
                         {groupedTeam[role].map(member => (
-                            <TeamMemberCard key={member.id} member={member} />
+                            <div key={member.id} className="w-full max-w-xs">
+                                <TeamMemberCard member={member} />
+                            </div>
                         ))}
                         </div>
                     </div>
