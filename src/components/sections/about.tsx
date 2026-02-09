@@ -8,7 +8,7 @@ const AboutSection = () => {
 
   const keyInfo = [
     { icon: <Calendar className="w-6 h-6 text-primary" />, title: 'Date', text: 'March 7th-8th, 2026' },
-    { icon: <MapPin className="w-6 h-6 text-primary" />, title: 'Venue', text: 'University Campus' },
+    { icon: <MapPin className="w-6 h-6 text-primary" />, title: 'Venue', text: 'Raghu Engineering College' },
     { icon: <Users className="w-6 h-6 text-primary" />, title: 'Organizers', text: 'Student Council' },
     { icon: <Award className="w-6 h-6 text-primary" />, title: 'Theme', text: 'Labyrinth of Legends' },
   ];
@@ -40,7 +40,7 @@ const AboutSection = () => {
           <Card className="overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-300">
             <CardContent className="p-0">
               <Image
-                src={aboutImage.imageUrl}
+                src="/mainb-block.jpg"
                 alt={aboutImage.description}
                 width={600}
                 height={400}

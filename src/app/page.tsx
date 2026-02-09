@@ -3,7 +3,7 @@ import Footer from '@/components/layout/footer';
 import HeroSection from '@/components/sections/hero';
 import AboutSection from '@/components/sections/about';
 import EventsSection from '@/components/sections/events';
-import GallerySection from '@/components/sections/gallery';
+import BusRoutesSection from '@/components/sections/bus-routes';
 import SponsorsSection from '@/components/sections/sponsors';
 import CtaSection from '@/components/sections/cta';
 import { AnimatedSection } from '@/components/animated-section';
@@ -24,8 +24,8 @@ export default function Home() {
             <EventsSection />
           </AnimatedSection>
 
-          <AnimatedSection id="highlights">
-            <GallerySection />
+          <AnimatedSection id="bus-routes">
+            <BusRoutesSection />
           </AnimatedSection>
 
           <AnimatedSection id="sponsors">
