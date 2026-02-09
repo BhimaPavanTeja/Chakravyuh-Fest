@@ -10,7 +10,7 @@ const AboutSection = () => {
     { icon: <Calendar className="w-6 h-6 text-primary" />, title: 'Date', text: 'March 7th-8th, 2026' },
     { icon: <MapPin className="w-6 h-6 text-primary" />, title: 'Venue', text: 'Raghu Engineering College' },
     { icon: <Users className="w-6 h-6 text-primary" />, title: 'Organizers', text: 'Student Council' },
-    { icon: <Award className="w-6 h-6 text-primary" />, title: 'Theme', text: 'Labyrinth of Legends' },
+    { icon: <Award className="w-6 h-6 text-primary" />, title: 'Theme', text: 'Campus Techno-Cultural symposium' },
   ];
 
   return (
@@ -18,10 +18,10 @@ const AboutSection = () => {
       <div className="space-y-6">
         <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">About Chakravyuh '26 Fest</h2>
         <p className="text-lg text-foreground/80">
-          Chakravyuh, our annual techno-cultural and sports festival, is a celebration of talent, innovation, and spirit. It is a labyrinth of challenges and opportunities, where legends are born and memories are forged. 
+          Chakravyuh, our annual techno-cultural and sports festival, is a celebration of talent, innovation, and spirit. It is a Techno-Cultural symposium of challenges and opportunities, where legends are born and memories are forged. 
         </p>
         <p className="text-foreground/70">
-          This year, we embrace the theme "Labyrinth of Legends," inviting you to navigate through a maze of exciting events, workshops, and competitions. Prepare to lose yourself in the energy and find your path to victory.
+          This year, we embrace the theme "Campus Techno-Cultural symposium" inviting you to navigate through a maze of exciting events, workshops, and competitions. Prepare to lose yourself in the energy and find your path to victory.
         </p>
         <div className="grid grid-cols-2 gap-6 pt-4">
           {keyInfo.map(item => (
