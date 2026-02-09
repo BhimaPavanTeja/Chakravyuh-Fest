@@ -74,7 +74,7 @@ const Countdown = () => {
   // Prevent rendering content that relies on dynamic time until mounted
   if (!isMounted) {
     return (
-      <div className="flex gap-3 md:gap-6 opacity-0">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 opacity-0">
         {/* Skeleton or empty state to preserve layout space */}
         {timeUnits.map((u) => (
           <div key={u} className="w-24 h-28 md:w-32 md:h-36 bg-white/5 rounded-2xl" />
@@ -90,7 +90,7 @@ const Countdown = () => {
   }
 
   return (
-    <div className="flex gap-3 md:gap-6">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
       {timeUnits.map((interval) => (
         <div 
           key={interval} 

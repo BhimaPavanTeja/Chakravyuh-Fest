@@ -44,7 +44,7 @@ const HeroSection = () => {
         </h1>
         <p className="hero-subtitle text-xl md:text-2xl text-accent/90"
           style={{ textShadow: '0 2px 8px rgba(0,0,0,0.7)' }}>
-          The Labyrinth of Legends
+          Campus Techno-Cultural symposium
         </p>
 
         <div className="countdown-container">
