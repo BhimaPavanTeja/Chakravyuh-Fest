@@ -53,7 +53,7 @@ const HeroSection = () => {
         
         <div className="hero-button">
           <Button size="lg" asChild className="rounded-full">
-            <Link href="/about">
+            <Link href="#about">
               Explore the Maze
               <ArrowDown className="ml-2 h-5 w-5 animate-bounce" />
             </Link>
