@@ -26,7 +26,7 @@ const PreLoader = () => {
     // Fade in and enlarge the text
     gsap.fromTo(textRef.current, 
         { opacity: 0, scale: 0.8 }, 
-        { opacity: 1, scale: 1, duration: 1.5, ease: 'power3.out', delay: 0.5 }
+        { opacity: 1, scale: 2, duration: 1.5, ease: 'power3.out', delay: 0.5 }
     );
     
     const hidePreloader = () => {
