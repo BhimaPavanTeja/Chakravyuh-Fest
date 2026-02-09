@@ -6,6 +6,7 @@ import EventsSection from '@/components/sections/events';
 import SponsorsSection from '@/components/sections/sponsors';
 import CtaSection from '@/components/sections/cta';
 import { AnimatedSection } from '@/components/animated-section';
+import GallerySection from '@/components/sections/gallery';
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
 
           <AnimatedSection id="sponsors">
             <SponsorsSection />
+          </AnimatedSection>
+
+          <AnimatedSection id="gallery">
+            <GallerySection />
           </AnimatedSection>
         </div>
 

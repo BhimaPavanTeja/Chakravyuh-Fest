@@ -16,7 +16,7 @@ const AboutSection = () => {
   return (
     <div className="grid md:grid-cols-2 gap-12 items-center">
       <div className="space-y-6">
-        <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">About Chakravyuh Fest</h2>
+        <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">About Chakravyuh '26 Fest</h2>
         <p className="text-lg text-foreground/80">
           Chakravyuh, our annual techno-cultural and sports festival, is a celebration of talent, innovation, and spirit. It is a labyrinth of challenges and opportunities, where legends are born and memories are forged. 
         </p>
