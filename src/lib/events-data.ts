@@ -19,7 +19,7 @@ export interface Event {
   contactDetails?: string;
   facultyCoordinator?: string;
   facultyContact?: string;
-  category: 'technical' | 'non-technical' | 'sports' | 'talks';
+  category: 'technical' | 'non-technical' | 'sports';
 }
 
 export const eventsData: Event[] = [
@@ -65,27 +65,6 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Dr G. Kiran Kumar (IIC Convenor, Physics HOD)',
     facultyContact: '+91 99496 51218',
     category: 'non-technical',
-  },
-  {
-    title: 'Entrepreneur Talk Shows',
-    club: 'E-Cell REC',
-    description: 'Interactive, moderated sessions with celebrity entrepreneurs.',
-    longDescription: 'The Entrepreneur Talk Shows are interactive, moderated sessions featuring celebrity entrepreneurs and influencer founders. Unlike traditional keynote speeches, these sessions follow a talk-show format with conversation-driven discussions, real-world stories, and audience interaction. The focus is on practical insights, failures, pivots, and real startup journeys.',
-    eventType: 'Tech Talk / Interactive Talk Show',
-    targetAudience: 'Open to all',
-    participants: '200–500 per session',
-    duration: '60–90 minutes per session',
-    venue: 'Auditorium / Seminar Hall',
-    requirements: {
-      technical: ['Projector / LED Screen', 'Sound System & Wireless Mics', 'Recording setup (optional)'],
-      resources: ['Stage seating (Guest + Moderator)', 'Branding backdrop', 'Audience seating arrangement'],
-    },
-    volunteers: '6–8',
-    contactName: 'E Sri Ram Vishal',
-    contactDetails: '9490147819',
-    facultyCoordinator: 'Dr G. Kiran Kumar (IIC Convenor, Physics HOD)',
-    facultyContact: '+91 99496 51218',
-    category: 'talks',
   },
   // GDG CLUB
   {

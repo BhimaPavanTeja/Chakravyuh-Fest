@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from 'react';
@@ -33,7 +32,6 @@ const EventsSection = () => {
   const technicalEvents = eventsData.filter(e => e.category === 'technical');
   const nonTechnicalEvents = eventsData.filter(e => e.category === 'non-technical');
   const sportsEvents = eventsData.filter(e => e.category === 'sports');
-  const talks = eventsData.filter(e => e.category === 'talks');
 
   return (
     <div className="text-center">
@@ -43,11 +41,10 @@ const EventsSection = () => {
       </p>
 
       <Tabs defaultValue="technical" className="w-full">
-        <TabsList className="grid w-full max-w-xl mx-auto grid-cols-2 md:grid-cols-4 mb-8 h-auto">
+        <TabsList className="grid w-full max-w-xl mx-auto grid-cols-2 md:grid-cols-3 mb-8 h-auto">
           <TabsTrigger value="technical" className="py-3 text-base"><Code className="mr-2 h-5 w-5" />Technical</TabsTrigger>
           <TabsTrigger value="non-technical" className="py-3 text-base"><Paintbrush className="mr-2 h-5 w-5" />Non-Technical</TabsTrigger>
           <TabsTrigger value="sports" className="py-3 text-base"><Shield className="mr-2 h-5 w-5" />Sports</TabsTrigger>
-          <TabsTrigger value="talks" className="py-3 text-base"><Presentation className="mr-2 h-5 w-5" />Talks</TabsTrigger>
         </TabsList>
         <TabsContent value="technical">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -62,11 +59,6 @@ const EventsSection = () => {
         <TabsContent value="sports">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {sportsEvents.map((event, i) => <EventCard key={i} event={event} onLearnMore={() => setSelectedEvent(event)} />)}
-          </div>
-        </TabsContent>
-        <TabsContent value="talks">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {talks.map((event, i) => <EventCard key={i} event={event} onLearnMore={() => setSelectedEvent(event)} />)}
           </div>
         </TabsContent>
       </Tabs>

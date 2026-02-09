@@ -28,13 +28,15 @@ const teamMembers: { id: string; name: string; role: string }[] = [
     { id: 'event-head-18', name: 'M.Varun', role: 'Stalls' },
     { id: 'event-head-19', name: 'M. Sumanth Reddy', role: 'Stalls' },
     { id: 'event-head-20', name: 'CH.Janaki Ram', role: 'Sports' },
-    { id: 'event-head-21', name: 'B. Pavan Teja', role: 'Technical' },
+    { id: 'event-head-21', name: 'B. Pavan Teja', role: 'Web Dev Team' },
     { id: 'event-head-22', name: 'P.Chetan Deva', role: 'Technical' },
+    { id: 'event-head-8', name: 'B.Sai Tarun', role: 'Web Dev Team' },
+    { id: 'event-head-22', name: 'P.Chetan Deva', role: 'Web Dev Team' },
     { id: 'event-head-23', name: 'K.Sandeep', role: 'Technical' },
     { id: 'event-head-24', name: 'C.V.Tanush', role: 'Technical' },
-    { id: 'event-head-25', name: 'K.Sasi Kumar', role: 'Social Media' },
-    { id: 'event-head-26', name: 'B.Hemanth Sai Reddy', role: 'Content Creator' },
-    { id: 'event-head-27', name: 'M.D.Sohail', role: 'Posters Designer' },
+    { id: 'event-head-25', name: 'K.Sasi Kumar (Social Media)', role: 'Digital Media' },
+    { id: 'event-head-26', name: 'B.Hemanth Sai Reddy (Content Creator)', role: 'Digital Media' },
+    { id: 'event-head-27', name: 'M.D.Sohail (Posters Designer)', role: 'Digital Media' },
 ];
 
 const TeamMemberCard = ({ member }: { member: { id: string, name: string, role: string } }) => {
@@ -87,9 +89,8 @@ const TeamSection = () => {
         'Security & Discipline',
         'Transport',
         'Resource',
-        'Social Media',
-        'Content Creator',
-        'Posters Designer',
+        'Digital Media',
+        'Web Dev Team',
     ];
 
     const sortedRoles = roleOrder.filter(role => groupedTeam[role]);

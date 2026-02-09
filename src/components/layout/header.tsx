@@ -53,7 +53,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 text-xl font-bold font-headline text-primary">
-            <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={32} height={32} className="h-8 w-8" />
+            <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={50} height={50} />
             <span>Chakravyuh '26</span>
           </Link>
 
