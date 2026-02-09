@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, X } from 'lucide-react';
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from '@/components/ui/sheet';
+import { Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Header = () => {
@@ -65,6 +65,10 @@ const Header = () => {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-full bg-background p-0">
+                <SheetTitle className="sr-only">Menu</SheetTitle>
+                <SheetDescription className="sr-only">
+                  Main navigation menu for mobile devices.
+                </SheetDescription>
                 <div className="flex flex-col h-full">
                   <div className="flex justify-start items-center p-4 border-b">
                      <Link href="/" className="text-xl font-bold font-headline text-primary" onClick={() => setIsMobileMenuOpen(false)}>
