@@ -5,8 +5,11 @@ import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { eventsData } from '@/lib/events-data';
 
 export default function RegisterPage() {
+  const competitionEvents = eventsData.filter(e => e.eventType && (e.eventType.includes('Competition') || e.eventType.includes('Exhibition')));
+
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
@@ -37,11 +40,11 @@ export default function RegisterPage() {
                     <SelectValue placeholder="Select an event to register" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="codecrush">CodeCrush</SelectItem>
-                    <SelectItem value="robowars">RoboWars</SelectItem>
-                    <SelectItem value="hackathon">Hackathon</SelectItem>
-                    <SelectItem value="rhythm-rumble">Rhythm Rumble</SelectItem>
-                    <SelectItem value="futsal-fury">Futsal Fury</SelectItem>
+                    {competitionEvents.map(event => (
+                      <SelectItem key={event.title} value={event.title.toLowerCase().replace(/ /g, '-')}>
+                        {event.title}
+                      </SelectItem>
+                    ))}
                   </SelectContent>
                 </Select>
               </div>
