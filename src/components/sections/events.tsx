@@ -50,7 +50,7 @@ const EventsSection = () => {
       <Tabs defaultValue="technical" className="w-full">
         <TabsList className="grid w-full max-w-md mx-auto grid-cols-3 mb-8 h-auto">
           <TabsTrigger value="technical" className="py-3 text-base"><Code className="mr-2 h-5 w-5"/>Technical</TabsTrigger>
-          <TabsTrigger value="non-technical" className="py-3 text-base"><Paintbrush className="mr-2 h-5 w-5"/>Cultural</TabsTrigger>
+          <TabsTrigger value="non-technical" className="py-3 text-base"><Paintbrush className="mr-2 h-5 w-5"/>Non-Technical</TabsTrigger>
           <TabsTrigger value="sports" className="py-3 text-base"><Shield className="mr-2 h-5 w-5"/>Sports</TabsTrigger>
         </TabsList>
         <TabsContent value="technical">
