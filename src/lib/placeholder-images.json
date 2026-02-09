@@ -15,73 +15,223 @@
     {
       "id": "chairperson",
       "description": "A confident and friendly-looking student, the chairperson of the fest.",
-      "imageUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwNDg2Njk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/team/indu.jpeg",
       "imageHint": "student portrait"
     },
     {
       "id": "vice-chair-1",
       "description": "A smiling student, a vice-chair of the organizing committee.",
-      "imageUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwNDg2Njk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/team/abhiram.jpeg",
       "imageHint": "student portrait"
     },
     {
       "id": "vice-chair-2",
       "description": "An enthusiastic student, another vice-chair of the organizing committee.",
-      "imageUrl": "https://images.unsplash.com/photo-1554727242-741c14fa561c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc3MDQ1ODY3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/team/madhu.jpeg",
       "imageHint": "person smiling"
     },
     {
       "id": "event-head-1",
       "description": "A focused student, an event head for a technical competition.",
-      "imageUrl": "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwd29ya2luZ3xlbnwwfHx8fDE3NzA1MjE0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/team/praneeth.jpeg",
       "imageHint": "student working"
     },
     {
       "id": "event-head-2",
       "description": "A creative-looking student, an event head for a cultural event.",
-      "imageUrl": "https://images.unsplash.com/photo-1614204424926-196a80bf0be8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcnRpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA1MTgzNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/team/yeswanth.jpeg",
       "imageHint": "artist portrait"
     },
     {
       "id": "event-head-3",
       "description": "An athletic student, an event head for a sports competition.",
-      "imageUrl": "https://images.unsplash.com/photo-1695918425283-eb385c012b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwNDk4NTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/team/meghana.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-4",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/nikki.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-5",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/eswar.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-6",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/tanmai.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-7",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/pawan.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-8",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/saitarun.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-9",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/kaushik.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-10",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/gokul.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-11",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/deekshitha.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-12",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/manohar.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-13",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/siri.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-14",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/vamsi.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-16",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/yash.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-17",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/karthik.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-18",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/varun.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-19",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/sumanth.png",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-20",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/ram.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-21",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/pavan.jpg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-22",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/chetan.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-23",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/sandeep.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-24",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/thanush.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-25",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/sasi.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-26",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/hemanth.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-27",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/sohail.jpeg",
       "imageHint": "athlete portrait"
     },
     {
       "id": "gallery-1",
       "description": "A high-energy shot of a crowd at a music concert during a previous fest.",
-      "imageUrl": "https://images.unsplash.com/photo-1689783101582-98feb9393a57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb25jZXJ0JTIwY3Jvd2R8ZW58MHx8fHwxNzcwNDQyMjQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/gallery/a.jpeg",
       "imageHint": "concert crowd"
     },
     {
       "id": "gallery-2",
       "description": "Students participating in a fun non-technical event.",
-      "imageUrl": "https://images.unsplash.com/photo-1719977913767-8ecf49736c9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3R1ZGVudHMlMjBwbGF5aW5nfGVufDB8fHx8MTc3MDUyMTQ0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/gallery/j.jpeg",
       "imageHint": "students playing"
     },
     {
       "id": "gallery-3",
       "description": "A close-up of a robot built for a technical competition.",
-      "imageUrl": "https://images.unsplash.com/photo-1767966787868-2db51cb84de5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyb2JvdCUyMGNvbXBldGl0aW9ufGVufDB8fHx8MTc3MDUyMTQ0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/gallery/h.jpeg",
       "imageHint": "robot competition"
     },
     {
       "id": "gallery-4",
       "description": "A winning team celebrating on stage.",
-      "imageUrl": "https://images.unsplash.com/photo-1628336707631-68131ca720c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY2VsZWJyYXRpb258ZW58MHx8fHwxNzcwNTIxNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/gallery/i.jpeg",
       "imageHint": "team celebration"
     },
     {
       "id": "gallery-5",
       "description": "An artistic performance on stage.",
-      "imageUrl": "https://images.unsplash.com/photo-1524201862652-0d3d485d6d07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdGFnZSUyMHBlcmZvcm1hbmNlfGVufDB8fHx8MTc3MDQ3MzExM3ww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/gallery/b.jpeg",
       "imageHint": "stage performance"
     },
     {
       "id": "gallery-6",
       "description": "Students engaged in a workshop.",
-      "imageUrl": "https://images.unsplash.com/photo-1752920299180-e8fd9276c202?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50cyUyMGxlYXJuaW5nfGVufDB8fHx8MTc3MDQxODU5Mnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/gallery/c.jpeg",
+      "imageHint": "students learning"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Students engaged in a workshop.",
+      "imageUrl": "/gallery/g.jpeg",
+      "imageHint": "students learning"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Students engaged in a workshop.",
+      "imageUrl": "/gallery/sports.jpeg",
       "imageHint": "students learning"
     },
     {

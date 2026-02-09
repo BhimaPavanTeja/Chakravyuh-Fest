@@ -20,16 +20,16 @@ export default function Home() {
             <AboutSection />
           </AnimatedSection>
 
+          <AnimatedSection id="gallery">
+            <GallerySection />
+          </AnimatedSection>
+
           <AnimatedSection id="events">
             <EventsSection />
           </AnimatedSection>
 
           <AnimatedSection id="sponsors">
             <SponsorsSection />
-          </AnimatedSection>
-
-          <AnimatedSection id="gallery">
-            <GallerySection />
           </AnimatedSection>
         </div>
 

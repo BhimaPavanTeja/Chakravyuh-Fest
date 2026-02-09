@@ -40,7 +40,7 @@ const AboutSection = () => {
           <Card className="overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-300">
             <CardContent className="p-0">
               <Image
-                src="/mainb-block.jpg"
+                src="/gallery/d.jpeg"
                 alt={aboutImage.description}
                 width={600}
                 height={400}
