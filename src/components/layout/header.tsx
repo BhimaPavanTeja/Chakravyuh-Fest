@@ -60,22 +60,16 @@ const Header = () => {
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
+                  <Menu className="h-7 w-7" />
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-full bg-background">
+              <SheetContent side="right" className="w-full bg-background p-0">
                 <div className="flex flex-col h-full">
-                  <div className="flex justify-between items-center p-4 border-b">
+                  <div className="flex justify-start items-center p-4 border-b">
                      <Link href="/" className="text-xl font-bold font-headline text-primary" onClick={() => setIsMobileMenuOpen(false)}>
                         Chakravyuh '26
                       </Link>
-                    <SheetTrigger asChild>
-                       <Button variant="ghost" size="icon">
-                        <X className="h-6 w-6" />
-                        <span className="sr-only">Close menu</span>
-                      </Button>
-                    </SheetTrigger>
                   </div>
                   <nav className="flex flex-col items-center justify-center flex-1 gap-6">
                     <NavItems />
