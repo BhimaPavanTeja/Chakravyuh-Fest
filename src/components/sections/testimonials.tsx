@@ -1,3 +1,7 @@
+"use client"
+
+import * as React from "react"
+import Autoplay from "embla-carousel-autoplay"
 import {
   Carousel,
   CarouselContent,
@@ -11,6 +15,10 @@ import { testimonials } from "@/lib/testimonials-data"
 import { Quote } from "lucide-react"
 
 const TestimonialsSection = () => {
+  const plugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  )
+
   return (
     <div className="text-center">
       <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary mb-4">Words from the Core</h2>
@@ -19,11 +27,14 @@ const TestimonialsSection = () => {
       </p>
       
       <Carousel
+        plugins={[plugin.current]}
         opts={{
           align: "start",
           loop: true,
         }}
         className="w-full max-w-6xl mx-auto"
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
       >
         <CarouselContent className="-ml-4">
           {testimonials.map((testimonial, index) => (
