@@ -38,13 +38,22 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black/60 z-10" />
       
       <div className="relative z-20 flex flex-col items-center gap-8 px-4">
-        <Image src="/logo.png" alt='text' width={300} height={300} className="hero-title" />
-        {/* <h1 className="hero-title text-5xl md:text-7xl lg:text-8xl font-bold font-headline uppercase tracking-wider text-shadow-lg"
-          style={{ textShadow: '0 4px 15px rgba(0,0,0,0.5)' }}>
+        {/* <div className="relative z-[100] mb-[-60px] mt-[-40px]"> 
+        <Image 
+          src={'/logo.png'} 
+          alt="Logo" 
+          width={300} 
+          height={300} 
+          priority // Added priority for hero images
+          className="object-contain" 
+        />
+        </div> */}
+        <h1 className="hero-title text-5xl md:text-7xl lg:text-8xl font-bold font-headline uppercase tracking-wider text-shadow-lg"
+          style={{ textShadow: '0 4px 15px rgba(240, 211, 23, 0.98)' }}>
           Chakravyuh '26
-        </h1> */}
+        </h1>
         <p className="hero-subtitle text-xl md:text-2xl text-accent/90"
-          style={{ textShadow: '0 2px 8px rgba(243, 240, 33, 0.7)', color: '#fff' }}>
+          style={{ textShadow: '0 2px 8px rgba(241, 244, 28, 0.81)', color: 'violet' }}>
           Campus Techno-Cultural symposium
         </p>
 
