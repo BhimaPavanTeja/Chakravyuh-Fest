@@ -4,6 +4,7 @@ import HeroSection from '@/components/sections/hero';
 import AboutSection from '@/components/sections/about';
 import EventsSection from '@/components/sections/events';
 import SponsorsSection from '@/components/sections/sponsors';
+import TestimonialsSection from '@/components/sections/testimonials';
 import CtaSection from '@/components/sections/cta';
 import { AnimatedSection } from '@/components/animated-section';
 import GallerySection from '@/components/sections/gallery';
@@ -30,6 +31,10 @@ export default function Home() {
 
           <AnimatedSection id="sponsors">
             <SponsorsSection />
+          </AnimatedSection>
+
+          <AnimatedSection id="testimonials">
+            <TestimonialsSection />
           </AnimatedSection>
         </div>
 
