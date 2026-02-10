@@ -10,8 +10,8 @@ const teamMembers: { id: string; name: string; role: string }[] = [
     { id: 'vice-chair-2', name: 'M.Madhu', role: 'Vice Chairperson' },
     { id: 'event-head-1', name: 'P.G.Raja Praneeth', role: 'Treasurer' },
     { id: 'event-head-2', name: 'B.Yeswanth', role: 'Promotions' },
-    { id: 'event-head-3', name: 'M.Meghana', role: 'Culturals' },
     { id: 'event-head-4', name: 'Ch.Nikhitha', role: 'Culturals' },
+    { id: 'event-head-3', name: 'M.Meghana', role: 'Culturals' },
     { id: 'event-head-5', name: 'D.Eswar', role: 'Security & Discipline' },
     { id: 'event-head-6', name: 'P.Tanmai', role: 'Security & Discipline' },
     { id: 'event-head-7', name: 'Y.Pawan', role: 'Transport' },
@@ -28,7 +28,7 @@ const teamMembers: { id: string; name: string; role: string }[] = [
     { id: 'event-head-18', name: 'M.Varun', role: 'Stalls' },
     { id: 'event-head-19', name: 'M. Sumanth Reddy', role: 'Stalls' },
     { id: 'event-head-20', name: 'CH.Janaki Ram', role: 'Sports' },
-    { id: 'event-head-21', name: 'B. Pavan Teja', role: 'Web Dev Team' },
+    { id: 'event-head-21', name: 'Bhima Pavan Teja (Developer)', role: 'Web Dev Team' },
     { id: 'event-head-22', name: 'P.Chetan Deva', role: 'Technical' },
     { id: 'event-head-22', name: 'P.Chetan Deva', role: 'Web Dev Team' },
     { id: 'event-head-8', name: 'B.Sai Tarun', role: 'Web Dev Team' },
@@ -36,7 +36,7 @@ const teamMembers: { id: string; name: string; role: string }[] = [
     { id: 'event-head-24', name: 'C.V.Tanush', role: 'Technical' },
     { id: 'event-head-25', name: 'K.Sasi Kumar (Social Media)', role: 'Digital Media' },
     { id: 'event-head-26', name: 'B.Hemanth Sai Reddy (Content Creator)', role: 'Digital Media' },
-    { id: 'event-head-27', name: 'M.D.Sohail (Posters Designer)', role: 'Digital Media' },
+    { id: 'event-head-27', name: 'M.D.Sohail (Design Lead)', role: 'Digital Media' },
 ];
 
 const TeamMemberCard = ({ member }: { member: { id: string, name: string, role: string } }) => {

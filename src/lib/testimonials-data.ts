@@ -13,8 +13,8 @@ export const testimonials = [
   },
     {
     quote: "A fest like Chakravyuh is more than just an event, it’s an identity. As Media Cell Head, I worked with a dedicated team to ensure this fest was felt everywhere. We collaborated with every club, pushed fellow students to create, and built the hype frame by frame.",
-    name: "Media Cell Head",
-    role: "Chakravyuh '25",
+    name: "G.Mouli",
+    role: "Media Cell Head",
     imageUrl: "/testimonials/unnamed.jpeg",
   },
   {
