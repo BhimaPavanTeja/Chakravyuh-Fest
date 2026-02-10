@@ -1,6 +1,6 @@
 export const testimonials = [
   {
-    quote: "As the Overall Chairperson of Chakravyuh Fest 205 I demonstrated exceptional leadership and organizational skills. My ability to coordinate multiple teams, handle challenges calmly, and ensure smooth execution of events played a crucial role in the success of the fest.",
+    quote: "As the Overall Chairperson of Chakravyuh Fest 2025 I demonstrated exceptional leadership and organizational skills. My ability to coordinate multiple teams, handle challenges calmly, and ensure smooth execution of events played a crucial role in the success of the fest.",
     name: "K.Raghavendra",
     role: "Chairperson",
     imageUrl: "/testimonials/exchair.jpeg",

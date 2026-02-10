@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
 
   return (
     <div className="text-center">
-      <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary mb-4">Words from the Core</h2>
+      <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary mb-4">Words from the Core '25</h2>
       <p className="max-w-2xl mx-auto text-lg text-foreground/80 mb-12">
         Hear what the masterminds behind the scenes have to say about their experience.
       </p>
