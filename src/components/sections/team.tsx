@@ -14,7 +14,7 @@ const teamMembers: { id: string; name: string; role: string }[] = [
     { id: 'event-head-3', name: 'M.Meghana', role: 'Culturals' },
     { id: 'event-head-5', name: 'D.Eswar', role: 'Security & Discipline' },
     { id: 'event-head-6', name: 'P.Tanmai', role: 'Security & Discipline' },
-    { id: 'event-head-7', name: 'Y.Pawan', role: 'Transport' },
+    { id: 'event-head-7', name: 'P.Anish Kumar', role: 'Transport' },
     { id: 'event-head-8', name: 'B.Sai Tarun', role: 'Non-Technical' },
     { id: 'event-head-9', name: 'M.Kaushik', role: 'Non-Technical' },
     { id: 'event-head-10', name: 'P.M.M.Gokul', role: 'Resource' },

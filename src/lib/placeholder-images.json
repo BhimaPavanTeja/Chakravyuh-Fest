@@ -69,7 +69,7 @@
     {
       "id": "event-head-7",
       "description": "An athletic student, an event head for a sports competition.",
-      "imageUrl": "/team/pawan.jpeg",
+      "imageUrl": "/team/anish.jpeg",
       "imageHint": "athlete portrait"
     },
     {
@@ -112,6 +112,12 @@
       "id": "event-head-14",
       "description": "An athletic student, an event head for a sports competition.",
       "imageUrl": "/team/vamsi.jpeg",
+      "imageHint": "athlete portrait"
+    },
+    {
+      "id": "event-head-15",
+      "description": "An athletic student, an event head for a sports competition.",
+      "imageUrl": "/team/chalukya.jpeg",
       "imageHint": "athlete portrait"
     },
     {
