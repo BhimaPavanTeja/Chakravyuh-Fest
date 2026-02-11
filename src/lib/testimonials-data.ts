@@ -40,5 +40,18 @@ export const testimonials = [
     name: "S.Giri Charan Naidu",
     role: "Treasurer",
     imageUrl: "/testimonials/GiriCharanNaidu.jpeg",
-  }
+  },
+  {
+    quote: "As the Technical Events Head of Chakravyuh 2K25, I feel proud to have contributed to the planning and successful execution of the fest’s technical events. With the constant support, coordination, and enthusiasm of the team, we were able to organize engaging and innovative events that encouraged learning, creativity, and participation among students. Being part of Chakravyuh 2K25 has been a valuable experience, and I hope this fest continues to grow as a flagship annual event of Raghu Engineering College.",
+    name: "M. Ojaswani",
+    role: "Technical Events Head",
+    imageUrl: "/testimonials/Ojaswani.jpeg",
+  },
+  {
+    quote: "As the cheif security head of the chakravyuh 2k25, I lead the team of 100 with the perfect planning and guidance. With the cooperation of the team and trust of entire team was the reason for the success of all events. I hope the team of fest 2k26 continue the legacy and tradition with grace and guidance. All the best team. Rock it.",
+    name: "Niharikaa",
+    role: "cheif security head",
+    imageUrl: "/testimonials/Niharikaa.jpeg",
+  },
+
 ];
