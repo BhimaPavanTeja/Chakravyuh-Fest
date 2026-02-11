@@ -53,7 +53,7 @@ const HeroSection = () => {
           Chakravyuh '26
         </h1>
         <p className="hero-subtitle text-xl md:text-2xl text-accent/90"
-          style={{ textShadow: '0 2px 8px rgba(241, 244, 28, 0.81)', color: 'violet' }}>
+          style={{ textShadow: '0 2px 8px rgba(241, 244, 28, 0.81)' }}>
           Campus Techno-Cultural symposium
         </p>
 
