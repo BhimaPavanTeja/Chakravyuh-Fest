@@ -49,11 +49,11 @@ const HeroSection = () => {
         />
         </div> */}
         <h1 className="hero-title text-5xl md:text-7xl lg:text-8xl font-bold font-headline uppercase tracking-wider text-shadow-lg"
-          style={{ textShadow: '0 4px 15px rgba(232, 184, 44, 0.98)' }}>
+          style={{ textShadow: '0 4px 15px rgba(222, 185, 82, 0.98)' }}>
           Chakravyuh '26
         </h1>
         <p className="hero-subtitle text-xl md:text-2xl text-accent/90"
-          style={{ textShadow: '0 2px 8px rgba(236, 198, 83, 0.81)' }}>
+          style={{ textShadow: '0 2px 8px rgba(212, 166, 41, 0.81)' }}>
           Campus Techno-Cultural symposium
         </p>
 

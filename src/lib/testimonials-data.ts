@@ -31,7 +31,7 @@ export const testimonials = [
   },
     {
     quote: "A fest like Chakravyuh is more than just an event, it’s an identity. As Media Cell Head, I worked with a dedicated team to ensure this fest was felt everywhere. We collaborated with every club, pushed fellow students to create, and built the hype frame by frame.",
-    name: "G.Mouli",
+    name: "Ch. Dhaneshwar",
     role: "Media Cell Head",
     imageUrl: "/testimonials/unnamed.jpeg",
   },
@@ -53,5 +53,16 @@ export const testimonials = [
     role: "cheif security head",
     imageUrl: "/testimonials/Niharikaa.jpeg",
   },
-
+  {
+    quote: "As a Non technical head ,What started as an idea had now become a remarkable success. Conducting NON-TECH EVENTS under Chakravyuh 2K25 was possible only because of the collective effort, coordination, and commitment of each one of us. With thousands of participants and the smooth execution of every event, we didn’t just organize a fest—we created an experience. This success stands as proof of our teamwork, planning, and dedication. Proud to have led such an energetic and responsible team.",
+    name: "G.MOULI SRIMUKESH",
+    role: "Non Technical Head",
+    imageUrl: "/testimonials/mouli.jpeg",
+  },
+  {
+    quote: "As a Core Team Member and Media Cell Head for Chakravyuh 2K25, this journey meant more to me than just creating posters and promo videos. Every design, every edit, and every update carried my passion, emotions, and dedication. There were sleepless nights, pressure, and endless efforts behind every piece of content. But seeing students connect with our work and feel the excitement of the fest made everything worth it. This experience taught me that media is not just about visuals it is about creating emotions and memories that stay forever. Proud and grateful to be part of this beautiful journey.",
+    name: "Kalyan Koushik",
+    role: "Media Cell Head",
+    imageUrl: "/testimonials/kalyan.jpeg",
+  },
 ];
