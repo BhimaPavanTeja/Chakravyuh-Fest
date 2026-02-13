@@ -184,6 +184,41 @@ export const eventsData: Event[] = [
     facultyContact: '+91 76719 21578',
     category: 'technical',
   },
+  // IETE CLUB
+  {
+    title: 'Circulink',
+    club: 'IETE',
+    description: 'A multi-round technical challenge including a virtual treasure hunt, quiz, and hardware building.',
+    longDescription: 'Circulink is a multi-round technical event designed to test a variety of skills. It consists of four exciting rounds: a virtual treasure hunt, a technical quiz, a "Guess the Output" challenge, and a hands-on "Build it if you can" round.',
+    fees: 'Based on registrations',
+    prizes: 'Based on registrations',
+    category: 'technical',
+    eventType: 'Competition',
+    requirements: {
+      resources: ['RIT seminar hall', '100 capacity classroom', 'Full WiFi', 'ECE lab', 'Arduino boards, sensors, etc.'],
+    },
+    contactName: 'P.GANAPATHI',
+    contactDetails: '6300856587',
+    facultyCoordinator: 'Dr. M.S.S.S.S.Srinivas',
+    facultyContact: '98496 72252',
+  },
+  {
+    title: 'Improvement of Resume Skills',
+    club: 'IETE',
+    description: 'A workshop focused on developing personal and resume-building skills.',
+    longDescription: 'This workshop is focused on personal development and is designed to help participants improve their resume-building skills. It will cover key aspects of crafting a professional resume that stands out.',
+    fees: '₹30',
+    prizes: 'Based on registrations',
+    category: 'technical',
+    eventType: 'Workshop',
+    requirements: {
+      resources: ['RIT seminar hall', '100 capacity classroom', 'Full WiFi'],
+    },
+    contactName: 'P.GANAPATHI',
+    contactDetails: '6300856587',
+    facultyCoordinator: 'Dr. M.S.S.S.S.Srinivas',
+    facultyContact: '98496 72252',
+  },
   // CHITRALAYA ClUB
   {
     title: 'Movie Quiz',
