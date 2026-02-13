@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@/components/ui/dialog';
-import { ArrowRight, Code, Paintbrush, Shield, Users, Clock, MapPin, Wrench, Phone, Star } from "lucide-react";
+import { ArrowRight, Code, Paintbrush, Shield, Users, Clock, MapPin, Wrench, Phone, Star, Trophy, DollarSign } from "lucide-react";
 import { eventsData, Event } from '@/lib/events-data';
 import { Badge } from '@/components/ui/badge';
 
@@ -85,6 +85,16 @@ const EventsSection = () => {
                   {selectedEvent.venue && <div className="flex items-start gap-2"><MapPin className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Venue:</span> {selectedEvent.venue}</p></div>}
                 </div>
               </div>
+
+              {(selectedEvent.fees || selectedEvent.prizes) && (
+                <div className="space-y-2">
+                  <h4 className="font-semibold text-lg border-b pb-1">Registration & Rewards</h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
+                    {selectedEvent.fees && <div className="flex items-start gap-2"><DollarSign className="w-4 h-4 mt-1 shrink-0 text-primary" /><p><span className="font-semibold">Fees:</span> {selectedEvent.fees}</p></div>}
+                    {selectedEvent.prizes && <div className="flex items-start gap-2"><Trophy className="w-4 h-4 mt-1 shrink-0 text-primary" /><p><span className="font-semibold">Prizes:</span> {selectedEvent.prizes}</p></div>}
+                  </div>
+                </div>
+              )}
 
               {selectedEvent.requirements && (
                 <div className="space-y-2">

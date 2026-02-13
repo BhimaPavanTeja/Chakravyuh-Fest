@@ -65,4 +65,16 @@ export const testimonials = [
     role: "Media Cell Head",
     imageUrl: "/testimonials/kalyan.jpeg",
   },
+  {
+    quote: "As the Stalls Person, I worked hard to ensure everything went smoothly, and it paid off. Thanks to the team and attendees for making it a blast.",
+    name: "T. Purna Siva Sai Manikanta",
+    role: "Stalls Head",
+    imageUrl: "/testimonials/Manikanta.jpeg",
+  },
+  {
+    quote: "As Tech Lead for Chakravyuh Fest 2025, I'm stoked to have led the tech team to make the event a hit. The team's hard work and my expertise came together to create an unforgettable tech extravaganza.",
+    name: "N raghavendra",
+    role: "Tech Lead",
+    imageUrl: "/testimonials/Raghavendra.jpeg",
+  },
 ];
