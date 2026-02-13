@@ -25,25 +25,6 @@ export interface Event {
 }
 
 export const eventsData: Event[] = [
-  // DATA SCIENCE DEPARTMENT
-  {
-    title: 'DATA PARADOX - THE PREDICTION AUCTION',
-    club: 'Data Science Department',
-    description: 'A strategic data analysis challenge where you predict trends and auction on your confidence.',
-    longDescription: 'Data Paradox — The Prediction Auction is a strategic data analysis challenge conducted as part of Chakravyuh 2K26 by the Data Science Department, Raghu Engineering College. In this event, participants are provided with real-world datasets and must analyze patterns, identify trends, and predict the next value. Teams are given virtual coins and must decide how much to invest based on their confidence in their prediction. Accurate predictions earn profits, while incorrect predictions result in losses, making the event a blend of data analytics, logical thinking, and risk management. The team with the highest number of virtual coins at the end of all rounds will be declared the winner.',
-    fees: 'Online: ₹99 | Spot Registration: ₹79',
-    prizes: 'Top 1: ₹1000 | Top 2: ₹500',
-    category: 'technical',
-    eventType: 'Competition',
-    targetAudience: 'Open to all',
-    requirements: {
-      resources: ['Mic set', 'Projector', 'Refreshments(Samosa , Fruity)', 'Participation Certificates', 'Swags'],
-    },
-    contactName: 'KOLAGANI ABISHEK',
-    contactDetails: '8309114596',
-    facultyCoordinator: 'PYLA ADITHYA SIVA SHANKAR',
-    facultyContact: '9705655102',
-  },
   // E-CELL REC CLUB
   {
     title: 'MONOPOLY X – Build. Trade. Dominate.',
@@ -108,26 +89,6 @@ export const eventsData: Event[] = [
     facultyContact: '+91 99496 51218',
     category: 'non-technical',
   },
-  // GDG CLUB
-  {
-      title: 'Level Up',
-      club: 'GDGonCampus REC',
-      description: 'A gamified tech experience blending creativity, problem-solving, and communication.',
-      longDescription: 'This event is a gamified tech experience designed to break away from traditional hackathons and coding contests. Instead of focusing only on programming, it brings together creativity, problem-solving, communication, and real-world tech thinking in an engaging and fun format. Participants will face a series of interactive challenges, role-based tasks, puzzles, and scenario-driven rounds inspired by real technology problems and the digital world around us. The event encourages collaboration, quick thinking, and innovation—making it accessible and exciting for students from all branches, regardless of their technical background. With live interactions, audience engagement, and dynamic tasks, the event aims to create a festival-like atmosphere where learning feels like play and technology feels relatable, inclusive, and impactful.',
-      eventType: 'Competition',
-      targetAudience: 'Open to all',
-      participants: '200',
-      duration: '4 Hrs',
-      venue: 'Hall / Classroom / Lab / Open Area',
-      requirements: {
-          technical: ['Projector / Screen', 'Internet / Wi-Fi', 'Power Supply / Extension Cables'],
-          resources: ['Tables', 'Chairs'],
-      },
-      volunteers: '30',
-      contactName: 'C V Thanush',
-      contactDetails: '7989710860',
-      category: 'technical',
-  },
   {
       title: 'Tech Model United Nations',
       club: 'GDGonCampus REC',
@@ -146,78 +107,6 @@ export const eventsData: Event[] = [
       contactName: 'C V Thanush',
       contactDetails: '7989710860',
       category: 'non-technical',
-  },
-  // RAIC CLUB
-  {
-      title: 'AIcon – Edit the Future',
-      club: 'RAIC Club',
-      description: 'A hands-on, AI-driven creative editing event blending creativity and technology.',
-      longDescription: 'AIcon – Edit the Future is a hands-on, AI-driven creative editing event aimed at exposing students to modern content creation workflows powered by artificial intelligence. The event blends creativity, technology, and industry practices through multiple competitive rounds and an expert-led workshop. Participants will work in teams to design posters, generate AI-assisted videos, and perform professional-level editing using a mix of AI tools and manual techniques. Each round progressively challenges participants’ design sense, storytelling ability, AI tool usage, and professional editing skills.',
-      eventType: 'Competition + Workshop',
-      targetAudience: 'Open to all',
-      participants: '150',
-      duration: '6 Hours (10:00 AM – 4:00 PM)',
-      venue: 'Hall / Classroom',
-      requirements: {
-          technical: ['Projector / Screen', 'Sound System / Microphone', 'Internet / Wi-Fi', 'Power Supply / Extension Cables'],
-          resources: ['Tables', 'Chairs', 'Participant Systems (Laptops/Desktops)'],
-      },
-      contactName: 'G.Bala Krishna',
-      contactDetails: '9177426430',
-      category: 'technical',
-  },
-  {
-    title: 'GAMEVERSE',
-    club: 'Raghu Artificial Intelligence Club (RAIC)',
-    description: 'A gamified tech event where participants rotate across 5 different game stations.',
-    longDescription: 'GameVerse Tech Challenge is a gamified technical event where participants rotate across 5 different game stations.',
-    fees: 'Team of 2: ₹50 | Team of 1: ₹30',
-    prizes: '₹3000 - ₹4000',
-    venue: 'Hall / Computer Lab',
-    requirements: {
-        technical: ['Mics/Speakers', 'Projector/Screen', 'Internet/Wi-Fi', 'Power Supply & Extension Cables'],
-        resources: ['Tables', 'Chairs', 'Hall decoration budget: ₹700-₹1100', 'Carrom board'],
-    },
-    contactName: 'G.BALAKRISHNA',
-    contactDetails: '9177426430',
-    facultyCoordinator: 'Dr.S.Vidya Sagar',
-    facultyContact: '+91 76719 21578',
-    category: 'technical',
-  },
-  // IETE CLUB
-  {
-    title: 'Circulink',
-    club: 'IETE',
-    description: 'A multi-round technical challenge including a virtual treasure hunt, quiz, and hardware building.',
-    longDescription: 'Circulink is a multi-round technical event designed to test a variety of skills. It consists of four exciting rounds: a virtual treasure hunt, a technical quiz, a "Guess the Output" challenge, and a hands-on "Build it if you can" round.',
-    fees: 'Based on registrations',
-    prizes: 'Based on registrations',
-    category: 'technical',
-    eventType: 'Competition',
-    requirements: {
-      resources: ['RIT seminar hall', '100 capacity classroom', 'Full WiFi', 'ECE lab', 'Arduino boards, sensors, etc.'],
-    },
-    contactName: 'P.GANAPATHI',
-    contactDetails: '6300856587',
-    facultyCoordinator: 'Dr. M.S.S.S.S.Srinivas',
-    facultyContact: '98496 72252',
-  },
-  {
-    title: 'Improvement of Resume Skills',
-    club: 'IETE',
-    description: 'A workshop focused on developing personal and resume-building skills.',
-    longDescription: 'This workshop is focused on personal development and is designed to help participants improve their resume-building skills. It will cover key aspects of crafting a professional resume that stands out.',
-    fees: '₹30',
-    prizes: 'Based on registrations',
-    category: 'technical',
-    eventType: 'Workshop',
-    requirements: {
-      resources: ['RIT seminar hall', '100 capacity classroom', 'Full WiFi'],
-    },
-    contactName: 'P.GANAPATHI',
-    contactDetails: '6300856587',
-    facultyCoordinator: 'Dr. M.S.S.S.S.Srinivas',
-    facultyContact: '98496 72252',
   },
   // CHITRALAYA ClUB
   {
@@ -332,43 +221,6 @@ export const eventsData: Event[] = [
     contactDetails: '8074040041',
     category: 'non-technical',
   },
-  {
-      title: 'Tech Relay',
-      club: 'FemSpire Club',
-      description: 'A fast-paced, team-based technical competition in a relay format.',
-      longDescription: 'Tech Relay is a fast-paced, team-based technical competition conducted in a relay format. Each team consists of four members, and each member participates in one round: a technical quiz round, a debugging round, a logic puzzle round, and a problem explanation round. The team progresses step-by-step like a relay race. This event emphasizes teamwork, basic technical knowledge, problem-solving skills, and the ability to explain ideas clearly in a simple and practical manner.',
-      eventType: 'Competition',
-      targetAudience: 'All branches (Girls only)',
-      venue: 'Classrooms',
-      requirements: {
-          technical: ['Projector and screen', 'Sound system and microphone', '2-3 laptops (optional)'],
-          resources: ['Question papers (MCQs, puzzles, debugging sheets)', 'Pens, papers, charts', 'Stopwatch / Timer'],
-      },
-      volunteers: '10–15',
-      contactName: 'Miriyala Harshini',
-      contactDetails: '8074040041',
-      category: 'technical',
-  },
-  // IOT CLUB
-  {
-      title: 'Project Expo 2025',
-      club: 'Raghu Scope - IoT club',
-      description: 'A platform for students to showcase their innovative ideas and technical projects.',
-      longDescription: 'The Project Expo 2025 aims to provide a platform for students to showcase their innovative ideas and technical projects. Participants will present working models or project concepts based on real-world problems across domains such as IoT, software, automation, and sustainable technology. This event encourages hands-on learning, creativity, and technical presentation skills, making it highly relevant for a TechFest by promoting innovation and practical application of knowledge.',
-      eventType: 'Competition / Exhibition',
-      targetAudience: 'Open to all branches and all years from all Colleges',
-      participants: '100+ students',
-      duration: 'One-day event | 9:00 AM – 4:00 PM',
-      venue: 'Seminar Hall / Large Classroom / Open Hall',
-      requirements: {
-          technical: ['Projector / Screen', 'Sound System / Microphone', 'Internet / Wi-Fi (optional)', 'Power Supply & Extension Cables'],
-          resources: ['Tables for project display', 'Chairs for participants and judges', 'Display boards/charts', 'Writing materials'],
-      },
-      volunteers: '3',
-      contactName: 'K. Sandeep',
-      contactDetails: '7670996681',
-      category: 'technical',
-  },
   // SAPTASWARA MUSIC CLUB
   {
     title: 'Band Performance',
@@ -386,25 +238,6 @@ export const eventsData: Event[] = [
     contactName: 'Khyathi',
     contactDetails: '7013727543',
     category: 'non-technical',
-  },
-  // CREATIVE HUB
-  {
-      title: 'Designathon',
-      club: 'Creative Hub',
-      description: 'A focused, time-bound competition integrating design thinking with practical innovation.',
-      longDescription: 'The Designathon is a focused, time-bound competition where teams will integrate design thinking with practical innovation. The central challenge—a real-world problem statement—will be revealed at the start of the event. The core objective is for participants to conceptualize and deliver comprehensive design solutions. The emphasis is on design thinking, creativity, user experience (UX), and feasibility, not coding. Teams will be tasked with creating interfaces, branding assets, and functional prototypes to address the problem.',
-      eventType: 'Design & Innovation Competition',
-      targetAudience: 'Open to all students (All Branches & Years)',
-      participants: '~100 participants',
-      duration: '6-7 Hours',
-      venue: 'Seminar Hall / Design Lab / Classrooms',
-      requirements: {
-          technical: ['Projector', 'Internet Access', 'Power Supply'],
-          resources: ['Tables and seating for participating teams and judges'],
-      },
-      contactName: 'Ch Teja, Jyothish',
-      contactDetails: '7207884991, 7396979306',
-      category: 'technical',
   },
   // SPORTS SECTION
   {
