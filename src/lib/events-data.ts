@@ -166,6 +166,24 @@ export const eventsData: Event[] = [
       contactDetails: '9177426430',
       category: 'technical',
   },
+  {
+    title: 'GAMEVERSE',
+    club: 'Raghu Artificial Intelligence Club (RAIC)',
+    description: 'A gamified tech event where participants rotate across 5 different game stations.',
+    longDescription: 'GameVerse Tech Challenge is a gamified technical event where participants rotate across 5 different game stations.',
+    fees: 'Team of 2: ₹50 | Team of 1: ₹30',
+    prizes: '₹3000 - ₹4000',
+    venue: 'Hall / Computer Lab',
+    requirements: {
+        technical: ['Mics/Speakers', 'Projector/Screen', 'Internet/Wi-Fi', 'Power Supply & Extension Cables'],
+        resources: ['Tables', 'Chairs', 'Hall decoration budget: ₹700-₹1100', 'Carrom board'],
+    },
+    contactName: 'G.BALAKRISHNA',
+    contactDetails: '9177426430',
+    facultyCoordinator: 'Dr.S.Vidya Sagar',
+    facultyContact: '+91 76719 21578',
+    category: 'technical',
+  },
   // CHITRALAYA ClUB
   {
     title: 'Movie Quiz',
