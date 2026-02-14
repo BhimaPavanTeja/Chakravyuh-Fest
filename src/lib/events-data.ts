@@ -4,6 +4,7 @@ export interface Event {
   club: string;
   description: string;
   longDescription: string;
+  registrationLink?: string;
   eventType?: string;
   targetAudience?: string;
   participants?: string;
@@ -36,6 +37,7 @@ export const eventsData: Event[] = [
       resources: ['Room (150+ capacity)', 'WiFi router', '2 mics', '1 speaker', 'Electronic components', 'A4 sheets', 'Projector'],
     },
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'TECH IN BORDERLAND',
@@ -50,6 +52,7 @@ export const eventsData: Event[] = [
       resources: ['2 Labs', 'Projector', 'WiFi', 'Power supply', 'Decoration (~₹1000)', '2–3 mics & speakers'],
     },
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'DATA PARADOX - The Prediction Auction',
@@ -66,6 +69,7 @@ export const eventsData: Event[] = [
       resources: ['Mic set', 'Projector', 'Refreshments (Samosa, Fruity)', 'Participation Certificates', 'Swags'],
     },
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'GAMEVERSE',
@@ -82,6 +86,7 @@ export const eventsData: Event[] = [
       resources: ['Hall / Computer Lab', 'Mics/Speakers', 'Projector / Screen', 'Internet / Wi-Fi', 'Power Supply', 'Decoration Budget (₹700-₹1100)', 'Carrom board (optional)'],
     },
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Circulink',
@@ -98,6 +103,7 @@ export const eventsData: Event[] = [
         resources: ['RIT Seminar Hall', '100 capacity classroom', 'Full WiFi', 'ECE Lab', 'Arduino boards, sensors, etc.'],
     },
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Improvement of Resume Skills',
@@ -111,6 +117,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Dr. M.S.S.S. Srinivas',
     facultyContact: '9849672252',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Poster Presentation',
@@ -122,6 +129,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'D. Narendra',
     facultyContact: '9110317091',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'JAM (Just A Minute)',
@@ -133,6 +141,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'D. Narendra',
     facultyContact: '9110317091',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Level Up',
@@ -146,6 +155,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'P Narsimharaju',
     facultyContact: '6301923220',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Cloud Quest',
@@ -159,6 +169,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Shivkumar',
     facultyContact: '9885993418',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'QuizForge',
@@ -172,6 +183,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Shiva',
     facultyContact: '8106866235',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Toryu Challenge (Tower of Balance)',
@@ -185,6 +197,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Shiva',
     facultyContact: '8106866235',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Project Expo',
@@ -198,6 +211,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Dr. P V S Anusha',
     facultyContact: '9502616962',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Escape Room',
@@ -211,6 +225,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Dr. P V S Anusha',
     facultyContact: '9502616962',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'CAD Clash',
@@ -224,6 +239,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'M. Teja Srikanth',
     facultyContact: '9505662608',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Guess the Component',
@@ -237,6 +253,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'M. Teja Srikanth',
     facultyContact: '9505662608',
     category: 'technical',
+    registrationLink: '#',
   },
   {
     title: 'Queens Arena',
@@ -250,6 +267,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'D. Nagamani',
     facultyContact: '8985916833',
     category: 'technical',
+    registrationLink: '#',
   },
 
   // ================== Non-Technical Events ==================
@@ -265,6 +283,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'G Kiran Kumar',
     facultyContact: '9154971659',
     category: 'non-technical',
+    registrationLink: '#',
   },
   {
     title: 'IPL Auction',
@@ -278,6 +297,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'G Kiran Kumar',
     facultyContact: '9154971659',
     category: 'non-technical',
+    registrationLink: '#',
   },
   {
     title: 'Movie Quiz',
@@ -297,6 +317,7 @@ export const eventsData: Event[] = [
     contactName: 'SHAIK AZIM REHAN',
     contactDetails: '7095235557',
     category: 'non-technical',
+    registrationLink: '#',
   },
   {
     title: 'Cine Quest',
@@ -316,6 +337,7 @@ export const eventsData: Event[] = [
     contactName: 'SHAIK AZIM REHAN',
     contactDetails: '7095235557',
     category: 'non-technical',
+    registrationLink: '#',
   },
   {
     title: 'Caricature Stall',
@@ -335,6 +357,7 @@ export const eventsData: Event[] = [
     contactName: 'A.V.S.Nrupesh',
     contactDetails: '9989542961',
     category: 'non-technical',
+    registrationLink: '#',
   },
   {
     title: 'Art Expo',
@@ -352,6 +375,7 @@ export const eventsData: Event[] = [
     contactName: 'A.V.S.Nrupesh',
     contactDetails: '9989542961',
     category: 'non-technical',
+    registrationLink: '#',
   },
   {
     title: 'Band Performance',
@@ -369,6 +393,7 @@ export const eventsData: Event[] = [
     contactName: 'Khyathi',
     contactDetails: '7013727543',
     category: 'non-technical',
+    registrationLink: '#',
   },
 
   // ================== Sports Events ==================
@@ -380,6 +405,7 @@ export const eventsData: Event[] = [
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
     category: 'sports',
+    registrationLink: '#',
   },
   {
     title: 'Basketball',
@@ -389,6 +415,7 @@ export const eventsData: Event[] = [
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
     category: 'sports',
+    registrationLink: '#',
   },
   {
     title: 'Volleyball',
@@ -398,6 +425,7 @@ export const eventsData: Event[] = [
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
     category: 'sports',
+    registrationLink: '#',
   },
   {
     title: 'Tennis',
@@ -407,5 +435,6 @@ export const eventsData: Event[] = [
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
     category: 'sports',
+    registrationLink: '#',
   },
 ];

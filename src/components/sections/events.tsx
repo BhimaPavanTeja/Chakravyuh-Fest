@@ -2,7 +2,6 @@
 "use client";
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -133,9 +132,13 @@ const EventsSection = () => {
               )}
             </div>
             <DialogFooter>
-              <Button asChild>
-                <Link href="/register">Register</Link>
-              </Button>
+              {selectedEvent.registrationLink && (
+                <Button asChild>
+                  <a href={selectedEvent.registrationLink} target="_blank" rel="noopener noreferrer">
+                    Register
+                  </a>
+                </Button>
+              )}
               <Button onClick={() => setSelectedEvent(null)} variant="outline">Close</Button>
             </DialogFooter>
           </DialogContent>
