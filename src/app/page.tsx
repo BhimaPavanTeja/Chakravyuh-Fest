@@ -25,14 +25,6 @@ export default function Home() {
             <GallerySection />
           </AnimatedSection>
 
-          <AnimatedSection id="events">
-            <EventsSection />
-          </AnimatedSection>
-
-          <AnimatedSection id="sponsors">
-            <SponsorsSection />
-          </AnimatedSection>
-
           <AnimatedSection id="testimonials">
             <TestimonialsSection />
           </AnimatedSection>

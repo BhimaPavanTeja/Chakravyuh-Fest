@@ -6,6 +6,8 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { eventsData } from '@/lib/events-data';
+import Link from 'next/link';
+
 
 export default function RegisterPage() {
   const competitionEvents = eventsData.filter(e => e.eventType && (e.eventType.includes('Competition') || e.eventType.includes('Exhibition')));
@@ -16,11 +18,12 @@ export default function RegisterPage() {
       <main className="flex-1 flex items-center justify-center py-24 md:py-32">
         <Card className="w-full max-w-lg">
           <CardHeader className="text-center">
-            <CardTitle className="text-3xl font-bold font-headline text-primary">Register for Chakravyuh '26</CardTitle>
-            <CardDescription>Welcome to the registration page!</CardDescription>
+            <CardTitle className="text-3xl font-bold font-headline text-primary">Register for Events in Chakravyuh '26</CardTitle>
+            <CardDescription>Welcome to the events registration page!</CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className='text-center'>
             <p>registrations will opening soon!</p>
+            <Link href="/events" className='text-blue-500 hover:underline'>click here to register events</Link>
           </CardContent>
         </Card>
       </main>

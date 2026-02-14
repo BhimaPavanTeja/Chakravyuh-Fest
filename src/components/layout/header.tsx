@@ -16,7 +16,7 @@ import { cn } from '@/lib/utils';
 
 const AnnouncementBar = () => {
   return (
-    <div className="bg-primary text-primary-foreground py-2 overflow-hidden">
+    <div className="bg-primary text-primary-foreground py-1 overflow-hidden">
       <div className="marquee-wrapper">
         <div className="marquee-content">
           <span>
