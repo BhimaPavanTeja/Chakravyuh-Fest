@@ -1,6 +1,8 @@
+
 "use client";
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -131,7 +133,10 @@ const EventsSection = () => {
               )}
             </div>
             <DialogFooter>
-              <Button onClick={() => setSelectedEvent(null)}>Close</Button>
+              <Button asChild>
+                <Link href="/register">Register</Link>
+              </Button>
+              <Button onClick={() => setSelectedEvent(null)} variant="outline">Close</Button>
             </DialogFooter>
           </DialogContent>
         )}
