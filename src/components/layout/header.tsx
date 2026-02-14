@@ -11,8 +11,19 @@ import {
   SheetTitle,
   SheetDescription,
 } from '@/components/ui/sheet';
-import { Menu } from 'lucide-react';
+import { Menu, ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
+
+const AnnouncementBar = () => {
+  return (
+    <div className="bg-primary text-primary-foreground py-2 text-center text-sm font-medium">
+      <Link href="/register" className="flex items-center justify-center hover:underline">
+        <span>Registrations are now open for Chakravyuh '26!</span>
+        <ArrowRight className="ml-2 h-4 w-4" />
+      </Link>
+    </div>
+  );
+};
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,57 +57,63 @@ const Header = () => {
   );
 
   return (
-    <header className={cn(
+    <div className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
-      isScrolled ? "bg-background/80 backdrop-blur-sm border-b" : "bg-transparent"
+      isScrolled ? "bg-background/80 backdrop-blur-sm" : "bg-transparent"
     )}>
-      <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 text-xl font-bold font-headline text-primary">
-            <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={50} height={50} />
-            <span>Chakravyuh '26</span>
-          </Link>
+      <header className={cn(
+        "w-full",
+        isScrolled ? "border-b" : ""
+      )}>
+        <div className="container mx-auto px-4">
+          <div className="flex h-16 items-center justify-between">
+            <Link href="/" className="flex items-center gap-2 text-xl font-bold font-headline text-primary">
+              <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={50} height={50} />
+              <span>Chakravyuh '26</span>
+            </Link>
 
-          <nav className="hidden md:flex items-center space-x-2">
-            <NavItems />
-            <Button asChild>
-              <Link href="/register">Register Now</Link>
-            </Button>
-          </nav>
+            <nav className="hidden md:flex items-center space-x-2">
+              <NavItems />
+              <Button asChild>
+                <Link href="/register">Register Now</Link>
+              </Button>
+            </nav>
 
-          <div className="md:hidden">
-            <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-7 w-7" />
-                  <span className="sr-only">Open menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right" className="w-full bg-background p-0">
-                <SheetTitle className="sr-only">Menu</SheetTitle>
-                <SheetDescription className="sr-only">
-                  Main navigation menu for mobile devices.
-                </SheetDescription>
-                <div className="flex flex-col h-full">
-                  <div className="flex justify-start items-center p-4 border-b">
-                     <Link href="/" className="flex items-center gap-2 text-xl font-bold font-headline text-primary" onClick={() => setIsMobileMenuOpen(false)}>
-                        <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={32} height={32} className="h-8 w-8" />
-                        <span>Chakravyuh '26</span>
-                      </Link>
+            <div className="md:hidden">
+              <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+                <SheetTrigger asChild>
+                  <Button variant="ghost" size="icon">
+                    <Menu className="h-7 w-7" />
+                    <span className="sr-only">Open menu</span>
+                  </Button>
+                </SheetTrigger>
+                <SheetContent side="right" className="w-full bg-background p-0">
+                  <SheetTitle className="sr-only">Menu</SheetTitle>
+                  <SheetDescription className="sr-only">
+                    Main navigation menu for mobile devices.
+                  </SheetDescription>
+                  <div className="flex flex-col h-full">
+                    <div className="flex justify-start items-center p-4 border-b">
+                       <Link href="/" className="flex items-center gap-2 text-xl font-bold font-headline text-primary" onClick={() => setIsMobileMenuOpen(false)}>
+                          <Image src="/logo.png" alt="Chakravyuh '26 Logo" width={32} height={32} className="h-8 w-8" />
+                          <span>Chakravyuh '26</span>
+                        </Link>
+                    </div>
+                    <nav className="flex flex-col items-center justify-center flex-1 gap-6">
+                      <NavItems />
+                      <Button asChild size="lg" className="w-4/5">
+                        <Link href="/register">Register Now</Link>
+                      </Button>
+                    </nav>
                   </div>
-                  <nav className="flex flex-col items-center justify-center flex-1 gap-6">
-                    <NavItems />
-                    <Button asChild size="lg" className="w-4/5">
-                      <Link href="/register">Register Now</Link>
-                    </Button>
-                  </nav>
-                </div>
-              </SheetContent>
-            </Sheet>
+                </SheetContent>
+              </Sheet>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <AnnouncementBar />
+    </div>
   );
 };
 

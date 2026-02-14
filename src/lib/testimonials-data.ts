@@ -20,7 +20,7 @@ export const testimonials = [
   {
     quote: "As the Resource Management Head for Chakravyuh, I am proud of the scale and excellence our team achieved. From overseeing event infrastructure, branding, décor, certification workflows, and end-to-end logistics to ensuring seamless participant services, we transformed meticulous planning into flawless execution.",
     name: "Ravindranadh",
-    role: "Cyber security",
+    role: "Resource Management",
     imageUrl: "testimonials/Ravindranadh.jpeg",
   },
   {
