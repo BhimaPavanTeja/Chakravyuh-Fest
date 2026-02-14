@@ -86,3 +86,27 @@
     @apply bg-background text-foreground;
   }
 }
+
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-flex;
+  animation: scroll 15s linear infinite;
+}
+
+.marquee-content span {
+  padding-right: 50px; /* space between repeats */
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+

@@ -96,30 +96,6 @@ const EventsSection = () => {
                   </div>
                 </div>
               )}
-
-              {selectedEvent.requirements && (
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-lg border-b pb-1">Requirements</h4>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
-                    {selectedEvent.requirements.technical && (
-                      <div>
-                          <h5 className="font-semibold mb-1 flex items-center gap-2"><Wrench className="w-4 h-4 text-primary"/>Technical</h5>
-                          <ul className="list-disc pl-6 space-y-1">
-                            {selectedEvent.requirements.technical.map((req, i) => <li key={i}>{req}</li>)}
-                          </ul>
-                      </div>
-                    )}
-                    {selectedEvent.requirements.resources && (
-                       <div>
-                          <h5 className="font-semibold mb-1 flex items-center gap-2"><Wrench className="w-4 h-4 text-primary"/>Resources</h5>
-                          <ul className="list-disc pl-6 space-y-1">
-                            {selectedEvent.requirements.resources.map((req, i) => <li key={i}>{req}</li>)}
-                          </ul>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
               
               {(selectedEvent.contactName || selectedEvent.facultyCoordinator) && (
                  <div className="space-y-2">

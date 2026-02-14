@@ -16,13 +16,21 @@ import { cn } from '@/lib/utils';
 
 const AnnouncementBar = () => {
   return (
-    <div className="bg-primary text-primary-foreground py-2 text-center text-sm font-medium">
-      <marquee direction="left" scrollamount="6">
-        Registrations are now open for Chakravyuh '26! Click on 'Register Now' to secure your spot.
-      </marquee>
+    <div className="bg-primary text-primary-foreground py-2 overflow-hidden">
+      <div className="marquee-wrapper">
+        <div className="marquee-content">
+          <span>
+            Latest News: Registrations for upcoming events are opening soon! Pay attention to secure your spot.
+          </span>
+          <span>
+            Latest News: Registrations for upcoming events are opening soon! Pay attention to secure your spot.
+          </span>
+        </div>
+      </div>
     </div>
   );
 };
+
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
