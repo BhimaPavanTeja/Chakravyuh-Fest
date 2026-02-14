@@ -34,9 +34,9 @@ const teamMembers: { id: string; name: string; role: string }[] = [
     { id: 'event-head-8', name: 'B.Sai Tarun (Developer)', role: 'Web Dev Team' },
     { id: 'event-head-23', name: 'K.Sandeep', role: 'Technical' },
     { id: 'event-head-24', name: 'C.V.Tanush', role: 'Technical' },
-    { id: 'event-head-25', name: 'K.Sasi Kumar (Social Media)', role: 'Digital Media' },
+    { id: 'event-head-27', name: 'M.D.Sohail (Design Head)', role: 'Digital Media' },
     { id: 'event-head-26', name: 'B.Hemanth Sai Reddy (Content Creator)', role: 'Digital Media' },
-    { id: 'event-head-27', name: 'M.D.Sohail (Design Lead)', role: 'Digital Media' },
+    { id: 'event-head-25', name: 'K.Sasi Kumar (Social Media)', role: 'Digital Media' },
 ];
 
 const TeamMemberCard = ({ member }: { member: { id: string, name: string, role: string } }) => {

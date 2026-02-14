@@ -41,7 +41,7 @@ export const eventsData: Event[] = [
   },
   {
     title: 'TECH IN BORDERLAND',
-    club: 'CSC',
+    club: 'GFG',
     description: 'A multi-round technical competition inspired by card-based challenges, testing intelligence, teamwork, speed, and psychology.',
     longDescription: 'A multi-round technical competition inspired by card-based challenges. Rounds are mapped to suits: Diamonds (Intelligence), Clubs (Teamwork), Spades (Speed & Coordination), Hearts (Psychology & Decision Making). The final round includes a difficulty card selection (Jack/Queen/King/Joker) and an offline quiz.',
     fees: '₹120 per team',

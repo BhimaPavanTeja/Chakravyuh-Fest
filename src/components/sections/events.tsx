@@ -74,10 +74,10 @@ const EventsSection = () => {
               </DialogDescription>
             </DialogHeader>
             <div className="text-sm text-foreground/80 max-h-[60vh] overflow-y-auto pr-4 space-y-6 py-4">
-              <p>{selectedEvent.longDescription}</p>
 
               <div className="space-y-2">
                 <h4 className="font-semibold text-lg border-b pb-1">Event Details</h4>
+              <p>{selectedEvent.longDescription}</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
                   {selectedEvent.eventType && <div className="flex items-start gap-2"><Star className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Event Type:</span> {selectedEvent.eventType}</p></div>}
                   {selectedEvent.targetAudience && <div className="flex items-start gap-2"><Users className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Target Audience:</span> {selectedEvent.targetAudience}</p></div>}
