@@ -17,10 +17,9 @@ import { cn } from '@/lib/utils';
 const AnnouncementBar = () => {
   return (
     <div className="bg-primary text-primary-foreground py-2 text-center text-sm font-medium">
-      <Link href="/register" className="flex items-center justify-center hover:underline">
-        <span>Registrations are now open for Chakravyuh '26!</span>
-        <ArrowRight className="ml-2 h-4 w-4" />
-      </Link>
+      <marquee direction="left" scrollamount="6">
+        Registrations are now open for Chakravyuh '26! Click on 'Register Now' to secure your spot.
+      </marquee>
     </div>
   );
 };
