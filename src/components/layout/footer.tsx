@@ -3,10 +3,10 @@ import { Button } from '@/components/ui/button';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <Twitter />, href: '#' },
-    { icon: <Facebook />, href: '#' },
-    { icon: <Instagram />, href: '#' },
-    { icon: <Linkedin />, href: '#' },
+    // { icon: <Twitter />, href: '#' },
+    // { icon: <Facebook />, href: '#' },
+    { icon: <Instagram />, href: 'https://www.instagram.com/chakravyuh_official_' },
+    // { icon: <Linkedin />, href: '#' },
   ];
 
   return (

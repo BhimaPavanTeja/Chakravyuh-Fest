@@ -72,7 +72,7 @@ export const eventsData: Event[] = [
   {
     title: 'DATA PARADOX - The Prediction Auction',
     club: 'Data Science Department',
-    description: 'Data Paradox — The Prediction Auction is a strategic data analysis challenge conducted as part of Chakravyuh 2K26 by the Data Science Department, Raghu Engineering College.  In this event, participants are provided with real-world datasets and must analyze patterns, identify trends, and predict the next value. Teams are given virtual coins and must decide how much to invest based on their confidence in their prediction.  Accurate predictions earn profits, while incorrect predictions result in losses, making the event a blend of data analytics, logical thinking, and risk management.  The team with the highest number of virtual coins at the end of all rounds will be declared the winner.',
+    description: 'Data Paradox — The Prediction Auction is a strategic data analysis',
     longDescription: 'Data Paradox is a strategic data analysis challenge. Participants are provided with real-world datasets and must analyze patterns, identify trends, and predict the next value. Teams use virtual coins to invest based on their confidence. Accurate predictions earn profits, while incorrect ones result in losses. The team with the most coins wins.',
     fees: 'For Online - 99/-  &  For Spot Registration -79/-',
     prizes: 'Top - 1 : 1000/- & Top -2 : 500/-',
