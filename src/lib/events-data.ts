@@ -22,7 +22,7 @@ export interface Event {
   contactDetails?: string;
   facultyCoordinator?: string;
   facultyContact?: string;
-  category: 'technical' | 'non-technical' | 'sports';
+  category: 'technical' | 'non-technical' | 'special-events';
 }
 
 export const eventsData: Event[] = [
@@ -33,6 +33,7 @@ export const eventsData: Event[] = [
     description: 'A multi-round challenge testing your knowledge of electronic components and circuits, culminating in an auction-based design round.',
     longDescription: 'Round 1 involves the identification of various electronic components. Round 2 challenges participants to identify complete circuits. The final round is a competitive, auction-based circuit design challenge where teams bid for components to build a functional circuit.',
     fees: '₹50 (Individual), ₹90 (2 members), ₹120 (3 members)',
+    prizes: "based upon registrations",
     requirements: {
       resources: ['Room (150+ capacity)', 'WiFi router', '2 mics', '1 speaker', 'Electronic components', 'A4 sheets', 'Projector'],
     },
@@ -57,10 +58,10 @@ export const eventsData: Event[] = [
   {
     title: 'DATA PARADOX - The Prediction Auction',
     club: 'Data Science Department',
-    description: 'A strategic data analysis challenge where you analyze real-world datasets, predict outcomes, and invest virtual coins to win.',
+    description: 'Data Paradox — The Prediction Auction is a strategic data analysis challenge conducted as part of Chakravyuh 2K26 by the Data Science Department, Raghu Engineering College.  In this event, participants are provided with real-world datasets and must analyze patterns, identify trends, and predict the next value. Teams are given virtual coins and must decide how much to invest based on their confidence in their prediction.  Accurate predictions earn profits, while incorrect predictions result in losses, making the event a blend of data analytics, logical thinking, and risk management.  The team with the highest number of virtual coins at the end of all rounds will be declared the winner.',
     longDescription: 'Data Paradox is a strategic data analysis challenge. Participants are provided with real-world datasets and must analyze patterns, identify trends, and predict the next value. Teams use virtual coins to invest based on their confidence. Accurate predictions earn profits, while incorrect ones result in losses. The team with the most coins wins.',
-    fees: 'Online - ₹99 & Spot - ₹79',
-    prizes: 'Top-1: ₹1000, Top-2: ₹500',
+    fees: 'For Online - 99/-  &  For Spot Registration -79/-',
+    prizes: 'Top - 1 : 1000/- & Top -2 : 500/-',
     contactName: 'Kolagani Abishek',
     contactDetails: '8309114596',
     facultyCoordinator: 'Pyla Adithya Siva Shankar',
@@ -74,16 +75,18 @@ export const eventsData: Event[] = [
   {
     title: 'GAMEVERSE',
     club: 'Raghu Artificial Intelligence Club (RAIC)',
-    description: 'A gamified technical event where participants rotate across 5 different challenging game stations.',
+    description: 'GameVerse Tech Challenge is a gamified technical event where participants rotate across 5 different game stations.',
     longDescription: 'GameVerse Tech Challenge is a gamified technical event where participants rotate across 5 different game stations, each testing a different skill set in a fun, competitive environment.',
     fees: 'Team of 1 - ₹30, Team of 2 - ₹50',
     prizes: '₹3000 - ₹4000',
+    venue: 'Hall / Computer Lab',
     contactName: 'G. Balakrishna',
     contactDetails: '9177426430',
     facultyCoordinator: 'Dr. S. Vidya Sagar',
     facultyContact: '+91 76719 21578',
     requirements: {
-      resources: ['Hall / Computer Lab', 'Mics/Speakers', 'Projector / Screen', 'Internet / Wi-Fi', 'Power Supply', 'Decoration Budget (₹700-₹1100)', 'Carrom board (optional)'],
+      technical: ['Mics/Speakers','Projector / Screen', 'Internet / Wi-Fi', 'Power Supply & Extension Cables'],
+      resources: ['Tables, Chairs', 'budget for hall decoration in range of 700/- to 1100/-', 'carrom board for one station from sports department'],
     },
     category: 'technical',
     registrationLink: '#',
@@ -91,7 +94,7 @@ export const eventsData: Event[] = [
   {
     title: 'Circulink',
     club: 'IETE',
-    description: 'A four-round technical event including a virtual treasure hunt, quiz, output guessing, and a build-off challenge.',
+    description: 'It consists of four rounds like 1.virtual treasuer hunt,2.quiz,3.Guess the output?3.Build it if u can?',
     longDescription: 'Circulink consists of four exciting rounds: 1. Virtual Treasure Hunt, 2. Quiz, 3. Guess the Output, 4. Build it if you can. Test your skills across a variety of technical domains.',
     fees: '₹50 (Single), ₹80 (Duo), ₹120 (Three)',
     prizes: 'Based on registrations',
@@ -100,7 +103,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Dr. M.S.S.S. Srinivas',
     facultyContact: '9849672252',
     requirements: {
-        resources: ['RIT Seminar Hall', '100 capacity classroom', 'Full WiFi', 'ECE Lab', 'Arduino boards, sensors, etc.'],
+        resources: ['rit seminar hall', '100 capacity class room', 'full wifi', 'ece lab', 'ece equipment like-ardunio boards,sensors etc...'],
     },
     category: 'technical',
     registrationLink: '#',
@@ -108,7 +111,7 @@ export const eventsData: Event[] = [
   {
     title: 'Improvement of Resume Skills',
     club: 'IETE',
-    description: 'A workshop focused on personal and professional development to help you craft the perfect resume.',
+    description: 'Developing the personal development(like as a workshop)',
     longDescription: 'This workshop focuses on developing personal and professional skills, guiding participants on how to build an effective and impactful resume to stand out to recruiters.',
     fees: '₹30',
     prizes: 'Based on registrations',
@@ -132,7 +135,7 @@ export const eventsData: Event[] = [
     registrationLink: '#',
   },
   {
-    title: 'JAM (Just A Minute)',
+    title: 'JAM',
     club: 'EEE Department',
     description: 'A 1-minute technical speaking challenge. Test your knowledge and communication skills under pressure.',
     longDescription: 'Participants are given a technical topic and must speak on it for one minute without hesitation, repetition, or deviation. This event tests technical knowledge, quick thinking, and public speaking skills.',
@@ -257,7 +260,7 @@ export const eventsData: Event[] = [
   },
   {
     title: 'Queens Arena',
-    club: 'FEMSPIRE Club',
+    club: 'FEMSPIRE CLUB',
     description: 'A multi-round team coding competition for girls, including MCQs, jumbled code, debugging, and blind coding.',
     longDescription: 'Queens Arena is a team-based coding competition exclusively for girls. The event consists of multiple challenging rounds: Multiple Choice Questions, Jumbled Code, Debugging, and the ultimate test—Blind Coding.',
     fees: '₹150 per team',
@@ -396,7 +399,7 @@ export const eventsData: Event[] = [
     registrationLink: '#',
   },
 
-  // ================== Sports Events ==================
+  // ================== Special Events ==================
   {
     title: 'Cricket',
     club: 'Sports Committee',
@@ -404,7 +407,7 @@ export const eventsData: Event[] = [
     longDescription: 'A classic knockout cricket tournament to find the champion team of the campus. Bring your team and compete for glory.',
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
-    category: 'sports',
+    category: 'special-events',
     registrationLink: '#',
   },
   {
@@ -414,7 +417,7 @@ export const eventsData: Event[] = [
     longDescription: 'Fast-paced 3-on-3 basketball tournament. Form your trio and showcase your skills on the court.',
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
-    category: 'sports',
+    category: 'special-events',
     registrationLink: '#',
   },
   {
@@ -424,7 +427,7 @@ export const eventsData: Event[] = [
     longDescription: 'Feel the heat with our volleyball tournament. Teams will compete in a league followed by knockouts.',
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
-    category: 'sports',
+    category: 'special-events',
     registrationLink: '#',
   },
   {
@@ -434,7 +437,7 @@ export const eventsData: Event[] = [
     longDescription: 'Aces, volleys, and smashes. Compete in our singles and doubles tennis tournament to be crowned the champion.',
     eventType: 'Sports Competition',
     targetAudience: 'Open to all',
-    category: 'sports',
+    category: 'special-events',
     registrationLink: '#',
   },
 ];

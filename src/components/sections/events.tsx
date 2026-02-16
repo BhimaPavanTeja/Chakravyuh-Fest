@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@/components/ui/dialog';
-import { ArrowRight, Code, Paintbrush, Shield, Users, Clock, MapPin, Wrench, Phone, Star, Trophy, DollarSign } from "lucide-react";
+import { ArrowRight, Code, Paintbrush, Users, Clock, MapPin, Phone, Star, Trophy, DollarSign } from "lucide-react";
 import { eventsData, Event } from '@/lib/events-data';
 import { Badge } from '@/components/ui/badge';
 
@@ -32,7 +32,7 @@ const EventsSection = () => {
 
   const technicalEvents = eventsData.filter(e => e.category === 'technical');
   const nonTechnicalEvents = eventsData.filter(e => e.category === 'non-technical');
-  const sportsEvents = eventsData.filter(e => e.category === 'sports');
+  const specialEvents = eventsData.filter(e => e.category === 'special-events');
 
   return (
     <div className="text-center">
@@ -45,7 +45,7 @@ const EventsSection = () => {
         <TabsList className="grid w-full max-w-xl mx-auto grid-cols-3 mb-8 h-auto">
           <TabsTrigger value="technical" className="py-3 text-base"><Code className="mr-2 h-5 w-5" />Technical</TabsTrigger>
           <TabsTrigger value="non-technical" className="py-3 text-base"><Paintbrush className="mr-2 h-5 w-5" />Non-Technical</TabsTrigger>
-          <TabsTrigger value="sports" className="py-3 text-base"><Shield className="mr-2 h-5 w-5" />Sports</TabsTrigger>
+          <TabsTrigger value="special-events" className="py-3 text-base"><Star className="mr-2 h-5 w-5" />Special Events</TabsTrigger>
         </TabsList>
         <TabsContent value="technical">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -57,9 +57,9 @@ const EventsSection = () => {
             {nonTechnicalEvents.map((event, i) => <EventCard key={i} event={event} onLearnMore={() => setSelectedEvent(event)} />)}
           </div>
         </TabsContent>
-        <TabsContent value="sports">
+        <TabsContent value="special-events">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {sportsEvents.map((event, i) => <EventCard key={i} event={event} onLearnMore={() => setSelectedEvent(event)} />)}
+            {specialEvents.map((event, i) => <EventCard key={i} event={event} onLearnMore={() => setSelectedEvent(event)} />)}
           </div>
         </TabsContent>
       </Tabs>
