@@ -39,7 +39,7 @@ export const eventsData: Event[] = [
     facultyCoordinator: 'Dr. P V S Anusha',
     facultyContact: '9502616962',
     category: 'technical',
-    registrationLink: '#',
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScCyGsSnys8x-Bj4YDUbzlZrAWXP84pvZRsR4cqgv18nLdjsw/viewform?usp=header',
   },
   {
     title: 'Component & Circuit Challenge',
