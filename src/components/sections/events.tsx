@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@/components/ui/dialog';
-import { ArrowRight, Code, Paintbrush, Users, Clock, MapPin, Phone, Star, Trophy, DollarSign, Calendar as CalendarIcon } from "lucide-react";
+import { ArrowRight, Code, Paintbrush, Users, Clock, MapPin, Phone, Star, Trophy, DollarSign, Calendar as CalendarIcon, Timer } from "lucide-react";
 import { eventsData, Event } from '@/lib/events-data';
 import { Badge } from '@/components/ui/badge';
 
@@ -25,11 +25,17 @@ const EventCard = ({ event, onLearnMore }: { event: Event, onLearnMore: () => vo
       <CardTitle className="text-xl">{event.title}</CardTitle>
       <CardDescription className="line-clamp-2">{event.description}</CardDescription>
     </CardHeader>
-    <div className="px-6 pb-2 text-xs text-muted-foreground">
+    <div className="px-6 pb-2 text-xs text-muted-foreground flex flex-col gap-1">
       {event.timing && (
         <div className="flex items-center gap-1">
-          <Clock className="w-3 h-3" />
+          <Clock className="w-3 h-3 text-primary" />
           {event.timing}
+        </div>
+      )}
+      {event.venue && (
+        <div className="flex items-center gap-1">
+          <MapPin className="w-3 h-3 text-primary" />
+          {event.venue}
         </div>
       )}
     </div>
@@ -95,11 +101,42 @@ const EventsSection = () => {
                 <h4 className="font-semibold text-lg border-b pb-1">Event Details</h4>
                 <p className="text-base leading-relaxed">{selectedEvent.longDescription}</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-3 mt-4">
-                  {selectedEvent.date && <div className="flex items-start gap-2"><CalendarIcon className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Date:</span> {selectedEvent.date}</p></div>}
-                  {selectedEvent.timing && <div className="flex items-start gap-2"><Clock className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Timing:</span> {selectedEvent.timing}</p></div>}
-                  {selectedEvent.venue && <div className="flex items-start gap-2"><MapPin className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Venue:</span> {selectedEvent.venue}</p></div>}
-                  {selectedEvent.eventType && <div className="flex items-start gap-2"><Star className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Type:</span> {selectedEvent.eventType}</p></div>}
-                  {selectedEvent.participants && <div className="flex items-start gap-2"><Users className="w-4 h-4 mt-1 shrink-0 text-primary"/><p><span className="font-semibold">Participation:</span> {selectedEvent.participants}</p></div>}
+                  {selectedEvent.date && (
+                    <div className="flex items-start gap-2">
+                      <CalendarIcon className="w-4 h-4 mt-1 shrink-0 text-primary"/>
+                      <p><span className="font-semibold">Date:</span> {selectedEvent.date}</p>
+                    </div>
+                  )}
+                  {selectedEvent.timing && (
+                    <div className="flex items-start gap-2">
+                      <Clock className="w-4 h-4 mt-1 shrink-0 text-primary"/>
+                      <p><span className="font-semibold">Timing:</span> {selectedEvent.timing}</p>
+                    </div>
+                  )}
+                  {selectedEvent.duration && (
+                    <div className="flex items-start gap-2">
+                      <Timer className="w-4 h-4 mt-1 shrink-0 text-primary"/>
+                      <p><span className="font-semibold">Duration:</span> {selectedEvent.duration}</p>
+                    </div>
+                  )}
+                  {selectedEvent.venue && (
+                    <div className="flex items-start gap-2">
+                      <MapPin className="w-4 h-4 mt-1 shrink-0 text-primary"/>
+                      <p><span className="font-semibold">Venue:</span> {selectedEvent.venue}</p>
+                    </div>
+                  )}
+                  {selectedEvent.eventType && (
+                    <div className="flex items-start gap-2">
+                      <Star className="w-4 h-4 mt-1 shrink-0 text-primary"/>
+                      <p><span className="font-semibold">Type:</span> {selectedEvent.eventType}</p>
+                    </div>
+                  )}
+                  {selectedEvent.participants && (
+                    <div className="flex items-start gap-2">
+                      <Users className="w-4 h-4 mt-1 shrink-0 text-primary"/>
+                      <p><span className="font-semibold">Participation:</span> {selectedEvent.participants}</p>
+                    </div>
+                  )}
                 </div>
               </div>
 
