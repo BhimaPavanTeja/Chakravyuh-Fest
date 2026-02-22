@@ -18,9 +18,10 @@ const Footer = () => {
             <p className="text-sm text-primary-foreground/80 mt-1">The Campus Techno-Cultural symposium awaits.</p>
           </div>
           <div className="flex items-center gap-2">
+            <p className="text-sm text-primary-foreground/80">Follow us</p>
             {socialLinks.map((link, index) => (
               <Button key={index} variant="ghost" size="icon" asChild>
-                <a href={link.href} aria-label={`Social media link ${index + 1}`}>
+                <a href={link.href} aria-label={`Social media link ${index + 1}`} className='hover:bg-black hover:text-white'>
                   {link.icon}
                 </a>
               </Button>
