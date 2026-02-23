@@ -22,8 +22,8 @@ export default function RegisterPage() {
             <CardDescription>Welcome to the events registration page!</CardDescription>
           </CardHeader>
           <CardContent className='text-center'>
-            <p>registrations will opening soon!</p>
-            <Link href="/events" className='text-blue-500 hover:underline'>click here to register events</Link>
+            <p>Registrations are open now for TECH EVENTS!</p>
+            <Link href="/events" className='text-blue-500 hover:underline'>click here to register & grab your spot</Link>
           </CardContent>
         </Card>
       </main>
