@@ -215,7 +215,7 @@ export const eventsData: Event[] = [
     description: 'The Project Expo is a prominent technical event organized under the banner of SPARKS',
     longDescription: 'The event promotes creativity, technical proficiency, and analytical thinking by encouraging participants to address real-world challenges using emerging technologies such as IoT, embedded systems, communication systems, automation, and sustainable technologies. It also enhances students’ teamwork, presentation abilities, and technical communication skills while providing valuable insights and feedback from faculty members and industry experts. ',
     fees: '₹300 per team (3 members max)',
-    prizes: 'Prize Pool: ₹20,000',
+    prizes: 'TBD',
     date: 'March 5th, 2026',
     timing: ' 9:30 AM to 12:30 PM',
     duration: 'Half day - 3 hours',
