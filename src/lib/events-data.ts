@@ -228,6 +228,24 @@ export const eventsData: Event[] = [
     registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfImHux6JfbEzCs1kruLxMzuHu78PmwQiZWh3VVLaTvQ3Bihw/viewform'
   },
   {
+    title: 'QUEENS ARENA',
+    club: 'Femspire Club',
+    description:'Queens Arena is an electrifying coding showdown exclusively for girls, designed to celebrate logic, speed, teamwork, and problem-solving skills.',
+    longDescription: 'Queens Arena is an electrifying coding showdown exclusively for girls, designed to celebrate logic, speed, teamwork, and problem-solving skills. From rapid-fire MCQs and code rearrangement puzzles to intense debugging battles and a thrilling blind coding challenge, each round tests confidence and technical brilliance. With fun surprise ice-breaker sessions between rounds, the competition blends pressure with excitement. Gather your squad of four and step into the arena—because queens do not just code, they conquer! ',
+    fees: '₹150 per team(size 4)',
+    prizes: 'TBD',
+    date: 'March 5th, 2026',
+    timing: '10:00 AM to 12:00 PM',
+    duration: '2 Hours only',
+    venue: 'C Block Lab(11,18) 2nd floor',
+    contactName: 'Harshini',
+    contactDetails: '+91 80740 40041',
+    facultyCoordinator: 'Nagamani',
+    facultyContact: '+91 89859 16883',
+    category: 'technical',
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfKWE8Oi2czgJs8fEiHC1eEan0wlE3pik2ueWh3PX-fuquG_Q/viewform'
+  },
+  {
     title: 'CAD CLASH',
     club: 'Mechanical Department',
     description: 'CAD CLASH is a technical drafting competition designed to test participants’ visualization skills, projection knowledge, and drafting accuracy using AutoCAD.',
