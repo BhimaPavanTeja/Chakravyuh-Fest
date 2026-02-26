@@ -20,10 +20,10 @@ const AnnouncementBar = () => {
       <div className="marquee-wrapper">
         <div className="marquee-content">
           <span>
-            Latest News: TECH EVENTS are OPEN NOW to registrations! Pay attention to secure your spot.
+            Latest News: TECH & NON-TECH EVENTS are OPEN NOW to registrations! Pay attention to secure your spot.
           </span>
           <span>
-            Latest News: TECH EVENTS are OPEN NOW to registrations! Pay attention to secure your spot.
+            Latest News: TECH & NON-TECH EVENTS are OPEN NOW to registrations! Pay attention to secure your spot.
           </span>
         </div>
       </div>
