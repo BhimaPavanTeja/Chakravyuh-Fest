@@ -463,7 +463,7 @@ export const eventsData: Event[] = [
     longDescription: 'Participants complete balance-based physical tasks. Losing balance or missing steps results in elimination.',
     duration: '2 Hours',
     venue: 'Near Pharmacy Block',
-    date: 'March 7th, 2026',
+    date: 'March 8th, 2026',
     timing: '9:30 AM to 12:00 PM',
     registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfckAcJPwvbsCiolph0B11gRkHa4bNtXzL7vltyYanfZKgpIg/viewform?usp=header',
     category: 'non-technical',
