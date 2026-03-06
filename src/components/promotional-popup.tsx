@@ -3,6 +3,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import {
   Dialog,
   DialogContent,
@@ -15,20 +16,20 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const PromotionalPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
   const promoImage = PlaceHolderImages.find((p) => p.id === "promoted-app");
 
   useEffect(() => {
     // Show after a delay to not compete with pre-loader
+    // Reset state on navigation
+    setIsOpen(false);
+    
     const timer = setTimeout(() => {
-      const hasShown = sessionStorage.getItem("zenverse-promo-shown");
-      if (!hasShown) {
-        setIsOpen(true);
-        sessionStorage.setItem("zenverse-promo-shown", "true");
-      }
+      setIsOpen(true);
     }, 4500); // 4.5 seconds delay (PreLoader is 2.5s)
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [pathname]);
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -43,7 +44,7 @@ const PromotionalPopup = () => {
           
           <div className="px-6 pb-6 space-y-4 flex flex-col items-center">
             {promoImage && (
-              <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-inner bg-muted">
+              <div className="relative h-full w-full aspect-video rounded-xl overflow-hidden shadow-inner bg-muted">
                 <Image
                   src={promoImage.imageUrl}
                   alt={promoImage.description}
