@@ -26,14 +26,14 @@ const PromotionalPopup = () => {
     
     const timer = setTimeout(() => {
       setIsOpen(true);
-    }, 4500); // 4.5 seconds delay (PreLoader is 2.5s)
+    }, 800);
 
     return () => clearTimeout(timer);
   }, [pathname]);
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogContent className="sm:max-w-[425px] overflow-hidden p-0 border-none bg-transparent shadow-none">
+      <DialogContent className="sm:max-w-[500px] overflow-hidden p-0 border-none bg-transparent shadow-none">
         <div className="relative bg-background rounded-2xl overflow-hidden shadow-2xl border border-white/10">
           <DialogHeader className="p-6 text-center">
             <DialogTitle className="text-2xl font-bold font-headline text-primary">Discover Zenverse</DialogTitle>
@@ -44,12 +44,13 @@ const PromotionalPopup = () => {
           
           <div className="px-6 pb-6 space-y-4 flex flex-col items-center">
             {promoImage && (
-              <div className="relative h-full w-full aspect-video rounded-xl overflow-hidden shadow-inner bg-muted">
+              <div className="relative w-full h-full min-h-[300px] rounded-xl overflow-hidden shadow-inner bg-muted/20">
                 <Image
                   src={promoImage.imageUrl}
                   alt={promoImage.description}
-                  fill
-                  className="object-cover"
+                  width={500}
+                  height={500}
+                  className="w-full h-auto object-contain max-h-[60vh]"
                   data-ai-hint={promoImage.imageHint}
                 />
               </div>
