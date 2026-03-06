@@ -6,6 +6,7 @@ import TestimonialsSection from '@/components/sections/testimonials';
 import CtaSection from '@/components/sections/cta';
 import { AnimatedSection } from '@/components/animated-section';
 import GallerySection from '@/components/sections/gallery';
+import SponsorsPage from '@/components/sections/sponsors';
 
 export default function Home() {
   return (
@@ -21,6 +22,10 @@ export default function Home() {
 
           <AnimatedSection id="gallery">
             <GallerySection />
+          </AnimatedSection>
+
+          <AnimatedSection id="sponsors">
+            <SponsorsPage />
           </AnimatedSection>
 
           <AnimatedSection id="testimonials">

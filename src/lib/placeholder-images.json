@@ -13,6 +13,12 @@
       "imageHint": "college campus"
     },
     {
+      "id": "promoted-app",
+      "description": "Zenverse App Promotion",
+      "imageUrl": "/promoted.png",
+      "imageHint": "mobile app"
+    },
+    {
       "id": "chairperson",
       "description": "A confident and friendly-looking student, the chairperson of the fest.",
       "imageUrl": "/team/indu.jpeg",
@@ -241,34 +247,52 @@
       "imageHint": "students learning"
     },
     {
-      "id": "sponsor-title",
+      "id": "sponsor-1",
       "description": "Logo for our title sponsor.",
       "imageUrl": "/sponsers/sponser1.jpeg",
       "imageHint": "title logo"
     },
     {
-      "id": "sponsor-co1",
-      "description": "Logo for our first co-sponsor.",
-      "imageUrl": "/sponsors/co-sponsor-1.png",
-      "imageHint": "co-sponsor logo"
+      "id": "sponsor-2",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser2.jpeg",
+      "imageHint": "title logo"
     },
     {
-      "id": "sponsor-co2",
-      "description": "Logo for our second co-sponsor.",
-      "imageUrl": "/sponsors/co-sponsor-2.png",
-      "imageHint": "co-sponsor logo"
+      "id": "sponsor-3",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser3.jpeg",
+      "imageHint": "title logo"
     },
     {
-      "id": "sponsor-partner1",
-      "description": "Logo for our first partner.",
-      "imageUrl": "/sponsors/partner-1.png",
-      "imageHint": "partner logo"
+      "id": "sponsor-4",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser4.jpeg",
+      "imageHint": "title logo"
     },
     {
-      "id": "sponsor-partner2",
-      "description": "Logo for our second partner.",
-      "imageUrl": "/sponsors/partner-2.png",
-      "imageHint": "partner logo"
+      "id": "sponsor-5",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser5.jpeg",
+      "imageHint": "title logo"
+    },
+    {
+      "id": "sponsor-6",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser6.jpeg",
+      "imageHint": "title logo"
+    },
+    {
+      "id": "sponsor-7",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser7.jpeg",
+      "imageHint": "title logo"
+    },
+    {
+      "id": "sponsor-8",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser8.jpeg",
+      "imageHint": "title logo"
     }
   ]
 }
