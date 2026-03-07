@@ -293,6 +293,30 @@
       "description": "Logo for our title sponsor.",
       "imageUrl": "/sponsers/sponser8.jpeg",
       "imageHint": "title logo"
+    },
+    {
+      "id": "sponsor-9",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser9.jpg",
+      "imageHint": "title logo"
+    },
+    {
+      "id": "sponsor-10",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser10.png",
+      "imageHint": "title logo"
+    },
+    {
+      "id": "sponsor-11",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser11.png",
+      "imageHint": "title logo"
+    },
+    {
+      "id": "sponsor-12",
+      "description": "Logo for our title sponsor.",
+      "imageUrl": "/sponsers/sponser12.jpg",
+      "imageHint": "title logo"
     }
   ]
 }
