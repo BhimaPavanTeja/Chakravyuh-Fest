@@ -118,7 +118,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <AnnouncementBar />
+      {/* <AnnouncementBar /> */}
     </div>
   );
 };
